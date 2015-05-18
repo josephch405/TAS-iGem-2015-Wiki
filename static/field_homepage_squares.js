@@ -3,6 +3,7 @@ var ctx = c.getContext("2d");
 var counter = 0;
 var cubes = [[],[]];
 var unitSize;
+var colorText = "100, 100, 100,";
 
 ctx.canvas.width  = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
@@ -25,23 +26,18 @@ function Cube(x, y){
       this.vStrength += (Math.random()-.5)/500;
       this.strength += this.vStrength;
 
-      if (this.strength > .6){
-        this.strength = .6;
+      if (this.strength > .2){
+        this.strength = .2;
         this.vStrength = 0;
       }
-      else if (this.strength <= 0.2){
-        this.strength = 0.2;
+      else if (this.strength <= 0){
+        this.strength = 0;
         this.vStrength = 0;
       }
     }
     
     this.paint = function(){
-      //var grd = ctx.createRadialGradient(this.x+200, this.y+200, 0, this.x+200, this.y+200, 200);
-      //grd.addColorStop(0, "rgba(255,200,100,"+ this.strength +")");
-      //grd.addColorStop(1, "rgba(255,255,255,0)");
-
-      ctx.fillStyle = "rgba(50, 200, 255,"+ this.strength +")";
-      //ctx.fillStyle = "rgba(255,200,100,"+ this.strength +")";
+      ctx.fillStyle = "rgba(" + colorText + this.strength +")";
       ctx.fillRect(this.x,this.y,unitSize,unitSize);
     }
 }

@@ -24,8 +24,8 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/project/overview"><h4 class="dropdown-toggle disabled" data-toggle="dropdown">PROJECT</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/2/23/Project_icon.PNG">
-						<h4>Telomere extension.  Prolongation of cell life.  Explore our three component system that not only extends telomeres, but regulates the length and ensures safety.</h4>
+						<img src="/pics/project.png">
+						<h4>Granzyme B - a blessing and a curse. We want to make it better with careful and selective inhibition.</h4>
 					</div>
 					<div class='subcategories_container'>
 						<div>
@@ -50,7 +50,7 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/modeling/overview"><h4 class='dropdown-toggle disabled' data-toggle="dropdown">MODELING</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/f/f0/Experiments_icon.png">
+						<img src="/pics/modeling.png">
 						<h4>Computational biology is becoming more reliable as a predictor of experimental data.  Click to see how modeling helped us decide what experimental steps to take.</h4>
 					</div>
 					<div class='subcategories_container'>
@@ -70,7 +70,7 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/human_practice/overview"><h4 class='dropdown-toggle disabled' data-toggle="dropdown">HUMAN PRACTICE</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/8/8d/Human_practice_icon.png">
+						<img src="/pics/hp.png">
 						<h4>Take a look at the research and outreach that shaped our entire E.Mortality project.</h4>
 					</div>
 					<div class='subcategories_container'>
