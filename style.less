@@ -1,0 +1,380 @@
+body, html {
+	height:100%;
+}
+
+body {
+	//background-image:url(./static/bg.jpg);
+	//background-image:url(http://2014hs.igem.org/wiki/images/5/56/Canvas_background.jpg);
+	background-attachment:fixed;
+	background-repeat:repeat;
+	backgroundColor: white;
+}
+html {
+	overflow-y:scroll;
+}
+header > .container {
+	padding-top:25px;
+	padding-bottom:15px;
+}
+.container {
+	max-width:1080px;
+}
+.absolute_center {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.sketch {
+	display:none;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+}
+#masthead {
+	#big-video-wrap {
+		position:static;
+	}
+	#head_text {
+		.absolute_center;
+		height:100px;
+	}
+	h1, h2 {
+		font-family:Lato;
+		color:white;
+		opacity:0.99;
+		text-align:center;
+		margin:0;
+	}
+	h1 {
+		letter-spacing:10px;
+		margin-bottom:5px;
+		font-size:60px;
+	}
+	h2 {
+		font-size:15px;
+	}
+}
+
+.nav {
+	#nav_left {
+		img {
+			width:170px;
+		}
+		display:inline-block;
+		vertical-align:bottom;
+	}
+	#nav_right {
+		margin-left:15px;
+		display:inline-block;
+		vertical-align:bottom;
+		h2 {
+			color:white;
+			font-size: 70px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	ul {
+		padding:0;
+		margin-top:0;
+		li {
+			list-style-type: none;
+			display: inline-block;
+			color: white;
+			border-right: 1px solid white;
+			padding: 0 10px;
+			margin-left: -4px;
+		}
+		li:last-child {
+			border:0;
+		}
+	}
+}
+.quotespacer {
+	border-top: 1px solid white;
+	width: 150px;
+	height: 1px;
+	display: block;
+	margin: 0 auto;
+}
+#missionquote {
+	-webkit-animation:20s huerotate linear infinite;
+	margin:15px auto;
+}
+#telomere {
+	width: 100%;
+	height: 360px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transition: 1s ease;
+}
+#telomere:hover {
+	-webkit-transform: scale(1.1);
+}
+#portrait_container {
+	border-right:1px solid white;
+	img {
+		width: 24%%;
+		padding: 5px;
+		transition: 0.2s ease;
+	}
+	img:hover {
+		cursor:pointer;
+		-webkit-transform: scale(1.3);
+	}
+	>.row {
+		padding-top:5px;
+	}
+	>.row:last-child {
+		padding-bottom:5px;
+	}
+}
+@-webkit-keyframes huerotate {
+	0% {
+		-webkit-filter:hue-rotate(0deg);
+	}
+	100% {
+		-webkit-filter:hue-rotate(360deg);
+	}
+}
+
+
+
+
+.SVG_igem_logo {
+	.PATH_tiger_logo {
+		fill:none;
+		stroke:rgba(253, 215, 0, 1);
+		stroke-width:2.5;
+		stroke-linecap:round;
+		stroke-linejoin:miter;
+		stroke-miterlimit:4;
+		stroke-opacity:1;
+		stroke-dashoffset:0;
+	}
+	.PATH_igem_logo_text {
+		fill:none;
+		stroke: rgba(37, 47, 98, 1);
+		stroke-width:2.5;
+		stroke-linecap:round;
+		stroke-linejoin:miter;
+		stroke-miterlimit:4;
+		stroke-opacity:1;
+		stroke-dashoffset:0;
+	}
+	.PATH_igem_logo_darkgreen {
+		fill:none;
+		stroke: rgba(9, 104, 54, 1);
+		stroke-width:2.5;
+		stroke-linecap:round;
+		stroke-linejoin:miter;
+		stroke-miterlimit:4;
+		stroke-opacity:1;
+		stroke-dashoffset:0;
+	}
+	.PATH_igem_logo_lightgreen {
+		fill:none;
+		stroke: rgba(153, 204, 153, 1);
+		stroke-width:2.5;
+		stroke-linecap:round;
+		stroke-linejoin:miter;
+		stroke-miterlimit:4;
+		stroke-opacity:1;
+		stroke-dashoffset:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* SLDIESJS ******************/
+ #slideShow {
+}
+#slides {
+	display: none;
+}
+#slides .slidesjs-navigation {
+	margin-top: 3px;
+}
+#slides .slidesjs-previous {
+	margin-right: 5px;
+	float: left;
+}
+#slides .slidesjs-next {
+	margin-right: 5px;
+	float: left;
+}
+.slidesjs-pagination {
+	margin: 6px 0 0;
+	float: right;
+	list-style: none;
+}
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(http://2014hs.igem.org/wiki/images/a/af/Pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px;
+}
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px;
+}
+#slides a:link, #slides a:visited {
+	color: #333;
+}
+#slides a:hover, #slides a:active {
+	color: #9e2020;
+}
+.navbar {
+	overflow: hidden;
+}
+.slideContainer {
+	margin: 0 auto;
+}
+#projIntroContainer {
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+#projIntro {
+	margin-top: -8px;
+	padding-top: 0px;
+	text-align: justify;
+	padding-right: 40px;
+	font-size: 19px;
+	font-family:'Poiret One', cursive;
+}
+/*************** BIGVIDEO.JS **************/
+ #big-video-wrap {
+	overflow:hidden;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+}
+#big-video-vid, #big-video-image {
+	position:absolute;
+}
+#big-video-control-container {
+	position:fixed;
+	bottom:0;
+	padding:10px;
+	width:100%;
+	background:rgba(0, 0, 0, .25);
+	-webkit-transition-duration:0.6s;
+	-moz-transition-duration:0.6s;
+	-ms-transition-duration:0.6s;
+	-o-transition-duration:0.6s;
+	transition-duration:0.6s;
+}
+#big-video-control {
+	width:100%;
+	height:16px;
+	position:relative;
+}
+#big-video-control-middle {
+	margin: 0 56px 0 24px;
+}
+#big-video-control-bar {
+	width:100%;
+	height:16px;
+	position:relative;
+	cursor:pointer;
+}
+#big-video-control-progress {
+	position:absolute;
+	top:7px;
+	height:3px;
+	width:0%;
+	background:#fff;
+}
+#big-video-control-track {
+	position:absolute;
+	top:8px;
+	height:1px;
+	width:100%;
+	background:#fff;
+}
+#big-video-control-bound-left {
+	left:0;
+}
+#big-video-control-bound-right {
+	right:-1px
+}
+#big-video-control-track .ui-slider-handle {
+	opacity:0;
+}
+#big-video-control-playhead {
+	left:30%;
+}
+#big-video-control-play {
+	position:absolute;
+	top:0;
+	left:0;
+	height:16px;
+	width:16px;
+	background-image:url('bigvideo.png');
+}
+#big-video-control-timer {
+	position:absolute;
+	top:1px;
+	right:0;
+	color:#fff;
+	font-size:11px;
+}
+#big-video-control-playhead, #big-video-control-bound-left, #big-video-control-bound-right {
+	position:absolute;
+	top:0;
+	height:16px;
+	width:1px;
+	background:#fff;
+}
+#big-video-control .ui-slider-handle {
+	border-left:solid 1px #fff;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:-8px;
+}
+.transparent {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity:0;
+}
+.vjs-big-play-button {
+	display:none !important;
+}
+
+canvas{
+	position:fixed;
+	top:0px;
+	left:0px;
+}

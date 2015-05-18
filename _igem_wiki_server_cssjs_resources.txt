@@ -1,0 +1,15 @@
+<p>iGEM CSS / JS Resources</p>
+
+CSS - <!-- ?action=raw&ctype=text/css -->
+	http://2014hs.igem.org/Team:TAS_Taipei/css/bootstrap.min.css
+	http://2014hs.igem.org/Team:TAS_Taipei/css/todc-bootstrap.min.css
+	http://2014hs.igem.org/Team:TAS_Taipei/css/style.less
+
+
+JS - ?action=raw&ctype=text/javascript
+	http://2014hs.igem.org/Team:TAS_Taipei/js/libs.min.js
+	http://2014hs.igem.org/Team:TAS_Taipei/js/field_homepage.js
+
+
+Image
+	http://2014hs.igem.org/wiki/images/5/56/Canvas_background.jpg
