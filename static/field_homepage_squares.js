@@ -55,3 +55,18 @@ function execute(){
       }
     }
 }
+
+$(".dropdown").mouseenter(function(){
+  //console.log("bobby");
+    $(this).find(".dropdown-menu").css({height:"0px"});
+    $(this).find(".dropdown-menu").css({display:"block"});
+    $(this).find(".dropdown-menu").animate({height:"160px"},150,"swing",function(){});
+});
+
+$(".dropdown").mouseleave(function(){
+  $(this).find(".dropdown-menu").animate({height:"0px"},150,"swing", bob($(this).find(".dropdown-menu")));//};
+});
+
+function bob(item){
+  return function(){item.css({display:"none"});}
+}

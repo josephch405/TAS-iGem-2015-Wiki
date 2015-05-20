@@ -94,6 +94,8 @@ nav {
 		border:0px;
 		margin-top:0px;
 		padding:10px;
+		box-shadow: 0px 0px 5px black;
+		z-index: -1;
 		img {
 			width:90px;
 			opacity:0.85;
@@ -117,11 +119,11 @@ nav {
 				display:inline-block;
 				text-align:center;
 				border: 1px solid #494949;
-				border-bottom:none;
-			}
+				//border-bottom:none;
+			}/*
 			>div:last-child {
 				border-bottom:1px solid #494949;
-			}
+			}*/
 			h5 {
 				font-family:Railway;
 				text-transform:uppercase;
@@ -484,14 +486,6 @@ border: 1px solid black;
 
 .col-lg-offset-1half {
 	margin-left: 11.111111111111%;
-}
-
-.dropdown:hover {
-	>.dropdown-menu {
-		display:block;
-		z-index:-1;
-		box-shadow: 0px 0px 5px black;
-	}
 }
 
 .clearfix:after { 

@@ -90,7 +90,7 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/safety"><h4 class='dropdown-toggle disabled' data-toggle="dropdown">SAFETY</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/5/52/Safety_icon.png">
+						<img src="/pics/safety.png">
 						<h4>Lab safety is of utmost importance.  Here are the precautions we've taken to maximize our lab safety.</h4>
 					</div>
 				</div>
@@ -99,7 +99,7 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/team"><h4 class='dropdown-toggle disabled' data-toggle="dropdown">TEAM</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/a/aa/Team_icon.png">
+						<img src="/pics/team.png">
 						<h4>Want to know more about us?  Sneak-a-peek and read about our interests and learn about where we are from.</h4>
 					</div>
 					<div class='subcategories_container'>
@@ -119,7 +119,7 @@
 				<a href="http://2014hs.igem.org/Team:TAS_Taipei/notebook"><h4 class='dropdown-toggle disabled' data-toggle="dropdown">NOTEBOOK</h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
-						<img src="http://2014hs.igem.org/wiki/images/4/4f/Notes_icon.png">
+						<img src="/pics/notebook.png">
 						<h4>Organization is key.  Our calendar and wet-lab notebook are located here.</h4>
 					</div>
 					<div class='subcategories_container'>
