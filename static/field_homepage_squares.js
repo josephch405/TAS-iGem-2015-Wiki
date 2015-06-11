@@ -23,11 +23,11 @@ function Cube(x, y){
     this.strength = 0;
     this.vStrength = 0;
     this.step = function(){
-      this.vStrength += (Math.random()-.5)/500;
+      this.vStrength += Math.round(100*(Math.random()-.5));
       this.strength += this.vStrength;
 
-      if (this.strength > .2){
-        this.strength = .2;
+      if (this.strength > 1){
+        this.strength = 1;
         this.vStrength = 0;
       }
       else if (this.strength <= 0){

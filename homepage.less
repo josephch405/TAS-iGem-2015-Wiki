@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Railway";
-    src: url("https://github.com/GregFleming/Railway-Sans/raw/master/fonts/WebFonts/railway-webfont.woff") format('woff');
-}
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 button:focus {outline:0 !important;}
 a:focus {outline:0 !important;}
@@ -103,7 +100,7 @@ nav {
 			margin-right:5px;
 		}
 		h4 {
-			color:black;
+			color:white;
 			padding:5px;
 			margin:0;
 			font-family:Roboto;
@@ -118,7 +115,7 @@ nav {
 				width:200px;
 				display:inline-block;
 				text-align:center;
-				border: 1px solid #494949;
+				border: 1px solid white;
 				//border-bottom:none;
 			}/*
 			>div:last-child {
@@ -128,7 +125,7 @@ nav {
 				font-family:Railway;
 				text-transform:uppercase;
 				font-size:16px;
-				color:black;
+				color:white;
 				//text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 			}
 		}
@@ -147,7 +144,7 @@ nav {
 			margin:10px;
 		}
 		a>h4 {
-			color:black;
+			color:white;
 			font-weight:normal;
 			font-size:16px;
 			//text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
@@ -157,17 +154,22 @@ nav {
 		}
 	}
 
-	@human_practice: white;
-	@project: white;
-	@experiments: white;
-	@safety: white;
-	@team: white;
-	@notebook: white;
+	@human_practice: #2196F3;
+	@project: #2196F3;
+	@experiments: #2196F3;
+	@safety: #2196F3;
+	@team: #2196F3;
+	@notebook: #2196F3;
+
+	li.dropdown{
+		font-color:white;
+	}
 
 	li.dropdown:nth-child(1) {
 		background-color:@experiments;
 		>.dropdown-menu {
 			//background-image:url(http://2014hs.igem.org/wiki/images/d/d6/Experimental.jpg);
+			background-color:@experiments;
 			background-size:400px;
 			width:1080px;
 			.subcategories_container>div {
@@ -180,6 +182,7 @@ nav {
 		background-color:@project;
 		>.dropdown-menu {
 			//background-image:url(http://2014hs.igem.org/wiki/images/8/89/Modeling.jpg);
+			background-color:@experiments;
 			background-size:1080;
 			width:1080px;
 			margin-left:-180px;
@@ -192,6 +195,7 @@ nav {
 	li.dropdown:nth-child(3) {
 		background-color: @human_practice;
 		>.dropdown-menu {
+			background-color:@experiments;
 			//background-image:url(http://2014hs.igem.org/wiki/images/f/f3/Human_practice.jpg);
 			background-size:400px;
 			width:1080px;
@@ -205,6 +209,7 @@ nav {
 	li.dropdown:nth-child(4) {
 		background-color:@safety;
 		>.dropdown-menu {
+			background-color:@experiments;
 			//background-image:url(http://2014hs.igem.org/wiki/images/b/b2/Safety_tas.jpg);
 			background-size:400px;
 			margin-left:-540px;
@@ -217,6 +222,7 @@ nav {
 	li.dropdown:nth-child(5) {
 		background-color:@team;
 		>.dropdown-menu {
+			background-color:@experiments;
 			//background-image:url(http://2014hs.igem.org/wiki/images/5/53/Team_tas.jpg);
 			background-size:300px;
 			margin-left:-720px;
@@ -229,6 +235,7 @@ nav {
 	li.dropdown:nth-child(6) {
 		background-color:@notebook;
 		>.dropdown-menu {
+			background-color:@experiments;
 			//background-image:url(http://2014hs.igem.org/wiki/images/9/93/Notebook.jpg);
 			background-size:300px;
 			width:1080px;
@@ -244,13 +251,13 @@ nav {
 
 
 footer {
-	height:70px;
+	height:20px;
 	background-color:#2c3e50;
 	.cornered {
 		float: left;
 	    width: 300px;
 	    height: 0px;
-	    border-top: 70px solid #bdc3c7;
+	    border-top: 20px solid #bdc3c7;
 	    border-right: 45px solid transparent;
 	}
 	.footer_right {
@@ -271,14 +278,17 @@ footer {
 	margin:auto;
 	padding:10px 0;
 	@text_color: rgb(221, 221, 221);
-	background: url(http://2014hs.igem.org/wiki/images/1/10/Cardboard_flat.jpg);
+	//background: url(http://2014hs.igem.org/wiki/images/1/10/Cardboard_flat.jpg);
 	.overview_header {
 		text-align:center;
 	}
 	h1, h2, h3, h4, h5 {
 		font-family: Railway;
 		text-transform: uppercase;
-		margin: 10px 0px;
+		margin: 50px 0px 0px 0px;
+	}
+	h1{
+		margin: 50px 0px 0px 0px;
 	}
 	.buttonrow {
 		margin-bottom:20px;
@@ -438,7 +448,11 @@ footer {
 }
 
 .container {
-	min-width:800px;
+	min-width:1080px;
+}
+
+.container div nav {
+	min-width:1080px;
 }
 
 p, ol>li, td, th, caption, .ulstyled>li, .calendar>li {

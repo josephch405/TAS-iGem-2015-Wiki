@@ -11,11 +11,11 @@
 <body data-spy="scroll" data-target="#category_navbar">
 	<div class="container" style='z-index:10;position:relative;'>
 		<?php include("./navigation.php"); ?>
-
-			<div id='bodycontainer' class='row'>
+<br><br>
+			<div id='bodycontainer' class='row card'>
 				<div class="col-lg-3" style='padding-right:0;'>
 					<div id="category_navbar">
-						<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:260px;' >
+						<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);' >
 						    <li><a href="#research">Project Overview</a></li>
 						    <ul>
 						    	<li><a href="#abstract">Abstract</a></li>
@@ -103,22 +103,11 @@
 
 			</div>	
 
-
-
-
-
-
-
-
 		<?php include("./footer.php"); ?>
 	</div>
 
-
-
-	<div class="canvas-container"></div>
-	<script>NUM_PARTICLES = 1000;</script>
-	<script src='http://2014hs.igem.org/Team:TAS_Taipei/js/field_homepage.js?action=raw&ctype=text/javascript'></script>
-	<script>sketchItem.start();</script>
+	<canvas id="canvas-container"></canvas>
+	<script src='static\field.js'></script>
 </body>
 
 </html>

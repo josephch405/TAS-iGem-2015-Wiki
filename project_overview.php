@@ -73,26 +73,13 @@
 				</div>
 			</div>	
 
-
-
-
-
-
-
-
 		<?php include("./footer.php"); ?>
 	</div>
 
 
 
-	<div class="canvas-container"></div>
-
-	<script src='http://rawgit.com/xyk2/tas_igem2014/master/static/libs.min.js'></script>
-	<script>NUM_PARTICLES = 1000;</script>
-	<script src='http://2014hs.igem.org/Team:TAS_Taipei/js/field_homepage.js?action=raw&ctype=text/javascript'></script>
-	<script>
-		sketchItem.start();
-	</script>
+	<canvas id="canvas-container"></canvas>	
+	<script src='static\field.js'></script>
 </body>
 
 </html>

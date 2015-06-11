@@ -1,13 +1,62 @@
+#content {
+    margin:0;
+    padding:0;
+    width:auto;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    position:static;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:transparent;
+}
+
+.printfooter, #menubar, #siteSub, #contentSub, #search-controls, .firstHeading, #footer-box, #catlinks, #p-logo {
+    display:none;}
+body {
+    margin: 10px 0 0 0;
+    padding: 0;}
+#top-section {
+    width: 965px;
+    height: 0;
+    margin: 0 auto;
+    padding: 0;
+    border: none;}
+#menubar {
+    font-size: 65%;
+    top: -14px;}
+.left-menu:hover {
+    background-color: transparent;}
+#menubar li a {
+    background-color: transparent;}
+#menubar:hover {
+    color: white;}
+#menubar li a {
+    color: transparent;}
+#menubar:hover li a {
+    color: white;}
+
+
+
+
+
+
+
+
+
 body, html {
 	height:100%;
 }
-
 body {
-	//background-image:url(./static/bg.jpg);
-	//background-image:url(http://2014hs.igem.org/wiki/images/5/56/Canvas_background.jpg);
 	background-attachment:fixed;
-	background-repeat:repeat;
-	backgroundColor: white;
+	background-repeat: repeat;
 }
 html {
 	overflow-y:scroll;
@@ -49,7 +98,7 @@ header > .container {
 		margin:0;
 	}
 	h1 {
-		letter-spacing:10px;
+		letter-spacing:6px;
 		margin-bottom:5px;
 		font-size:60px;
 	}
@@ -235,7 +284,7 @@ header > .container {
 	width: 13px;
 	height: 0;
 	padding-top: 13px;
-	background-image: url(http://2014hs.igem.org/wiki/images/a/af/Pagination.png);
+	//background-image: url(http://2014hs.igem.org/wiki/images/a/af/Pagination.png);
 	background-position: 0 0;
 	float: left;
 	overflow: hidden;
@@ -339,7 +388,7 @@ header > .container {
 	left:0;
 	height:16px;
 	width:16px;
-	background-image:url('bigvideo.png');
+	//background-image:url('bigvideo.png');
 }
 #big-video-control-timer {
 	position:absolute;
@@ -378,3 +427,557 @@ canvas{
 	top:0px;
 	left:0px;
 }
+
+.card{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	box-shadow: 0px 0px 5px black;
+	padding:50px;
+}
+
+.card_pic{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	box-shadow: 0px 0px 5px black;
+	padding:0px;
+}
+
+.container {
+	padding: 0px;
+	min-width:1080px;
+}
+
+.container div nav {
+	min-width:1080px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//homepage
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+button:focus {outline:0 !important;}
+a:focus {outline:0 !important;}
+
+img {
+	max-width:100%;
+}
+
+a {
+	text-decoration:none;
+	color:inherit !important;
+}
+
+a:hover {
+	color:inherit;
+}
+
+.full {
+	padding:0;
+}
+
+
+.slidesjs-pagination {
+	margin-top: -25px;
+	margin-right: 10px;
+	z-index: 10;
+	position: relative;
+}
+
+#slides .heroImageContainer {
+	background-size: cover;
+	padding-top: 54%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	h3 {
+		opacity:0.85;
+		max-width:400px;
+		position: absolute;
+		padding: 10px 20px;
+		font-weight: normal;
+		color: black;
+		font-size: 35px;
+		font-family: Railway;
+		span {
+			font-size:21px;
+			display:block;
+		}
+	}
+	h3.topleft {
+		top: 0;
+		left: 0;
+		margin-left:20px;
+	}
+	h3.topright {
+		top:0;
+		right:5px;
+		margin-right:20px;
+	}
+	h3.bottomleft {
+		bottom: 0;
+		left: 0;
+		margin-bottom: 35px;
+		margin-left:20px;
+	}
+	h3.bottomright {
+		bottom: 0;
+		right: 5px;
+		margin-bottom: 35px;
+		margin-right:20px;
+	}
+	h3.red { background-color: rgb(209, 0, 0); }
+	h3.purple { background-color: #8e44ad; }
+	h3.blue { background-color: #2c3e50; }
+	h3.belize { background-color: #2980b9; }
+	h3.green { background-color: #27ae60; }
+	h3.orange { background-color: #f39c12; }
+	h3.hide {display:none;}
+	.slidesjs-control, .slidesjs-container {
+		width:100% !important;
+	}
+}
+
+
+nav {
+	ul {
+		margin:0;
+		padding:0;
+	}
+	.dropdown-menu {
+		border:0px;
+		margin-top:0px;
+		padding:10px;
+		box-shadow: 0px 0px 5px black;
+		z-index: -1;
+		img {
+			width:90px;
+			opacity:0.85;
+			float:left;
+			margin-right:5px;
+		}
+		h4 {
+			color:white;
+			padding:5px;
+			margin:0;
+			font-family:Roboto;
+			font-size:16px;
+
+		}
+		.subcategories_container {
+			display:inline-block;
+			width:100%;
+			cursor:pointer;
+			>div {
+				width:200px;
+				display:inline-block;
+				text-align:center;
+				border: 1px solid white;
+				//border-bottom:none;
+			}/*
+			>div:last-child {
+				border-bottom:1px solid #494949;
+			}*/
+			h5 {
+				font-family:Railway;
+				text-transform:uppercase;
+				font-size:16px;
+				color:white;
+				//text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+			}
+		}
+	}
+	li.dropdown {
+		width: 180px;
+		display:inline-block;
+
+		margin-right: -4px;
+		//margin-bottom:-1px;
+		height:40px;
+		>a {
+			text-decoration:none;
+			display:block;
+			text-align: center;
+			margin:10px;
+		}
+		a>h4 {
+			color:white;
+			font-weight:normal;
+			font-size:16px;
+			//text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+			padding:0;
+			margin:0;
+			text-align: center;
+		}
+	}
+
+	@human_practice: #2196F3;
+	@project: #2196F3;
+	@experiments: #2196F3;
+	@safety: #2196F3;
+	@team: #2196F3;
+	@notebook: #2196F3;
+
+	li.dropdown{
+		font-color:white;
+	}
+
+	li.dropdown:nth-child(1) {
+		background-color:@experiments;
+		>.dropdown-menu {
+			//background-image:url(http://2014hs.igem.org/wiki/images/d/d6/Experimental.jpg);
+			background-color:@experiments;
+			background-size:400px;
+			width:1080px;
+			.subcategories_container>div {
+				background-color:fade(@experiments, 60%);
+			}
+		}
+	}
+
+	li.dropdown:nth-child(2) {
+		background-color:@project;
+		>.dropdown-menu {
+			//background-image:url(http://2014hs.igem.org/wiki/images/8/89/Modeling.jpg);
+			background-color:@experiments;
+			background-size:1080;
+			width:1080px;
+			margin-left:-180px;
+			.subcategories_container>div {
+				background-color:fade(@project, 60%);
+			}
+		}
+	}
+
+	li.dropdown:nth-child(3) {
+		background-color: @human_practice;
+		>.dropdown-menu {
+			background-color:@experiments;
+			//background-image:url(http://2014hs.igem.org/wiki/images/f/f3/Human_practice.jpg);
+			background-size:400px;
+			width:1080px;
+			margin-left:-360px;
+			.subcategories_container>div {
+				background-color:fade(@human_practice, 60%);
+			}
+		}
+	}
+
+	li.dropdown:nth-child(4) {
+		background-color:@safety;
+		>.dropdown-menu {
+			background-color:@experiments;
+			//background-image:url(http://2014hs.igem.org/wiki/images/b/b2/Safety_tas.jpg);
+			background-size:400px;
+			margin-left:-540px;
+			width:1080px;
+			.subcategories_container>div {
+				background-color:fade(@safety, 60%);
+			}
+		}
+	}
+	li.dropdown:nth-child(5) {
+		background-color:@team;
+		>.dropdown-menu {
+			background-color:@experiments;
+			//background-image:url(http://2014hs.igem.org/wiki/images/5/53/Team_tas.jpg);
+			background-size:300px;
+			margin-left:-720px;
+			width:1080px;
+			.subcategories_container>div {
+				background-color:fade(@team, 60%);
+			}
+		}
+	}
+	li.dropdown:nth-child(6) {
+		background-color:@notebook;
+		>.dropdown-menu {
+			background-color:@experiments;
+			//background-image:url(http://2014hs.igem.org/wiki/images/9/93/Notebook.jpg);
+			background-size:300px;
+			width:1080px;
+			margin-left:-900px;
+			.subcategories_container>div {
+				background-color:fade(@notebook, 60%);
+			}
+		}
+	}
+}
+
+
+
+
+footer {
+	height:20px;
+	background-color:#2c3e50;
+	.cornered {
+		float: left;
+	    width: 300px;
+	    height: 0px;
+	    border-top: 20px solid #bdc3c7;
+	    border-right: 45px solid transparent;
+	}
+	.footer_right {
+		color:white;
+		padding:25px;
+		float: right;
+		height: 100%;
+		span {
+			opacity:0.5;
+		}
+	}
+
+}
+
+
+#bodycontainer {
+	max-width: 1080px;
+	margin:auto;
+	padding:10px 0;
+	@text_color: rgb(221, 221, 221);
+	//background: url(http://2014hs.igem.org/wiki/images/1/10/Cardboard_flat.jpg);
+	.overview_header {
+		text-align:center;
+	}
+	h1, h2, h3, h4, h5 {
+		font-family: Railway;
+		text-transform: uppercase;
+		margin: 50px 0px 0px 0px;
+	}
+	h1{
+		margin: 50px 0px 0px 0px;
+	}
+	.buttonrow {
+		margin-bottom:20px;
+	}
+	.igem_button {
+		position:relative;
+		overflow: hidden;
+		img {
+			transition: 0.4s ease;
+			-webkit-filter: grayscale(0%);
+		}
+		.button_description {
+			transition: 0.5s ease;
+			background: rgba(44, 62, 80, 0.75);			
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100%;
+			height:100%;
+		}
+		h2 {
+			margin: 0 auto;			
+			margin-top:-27px;
+			color: @text_color;
+			font-size: 16px;
+			text-align: center;
+			width: 100%;
+			padding: 5px 0px;
+			background: rgba(0, 0, 0, 0.41);
+			font-family: Railway;
+			text-transform: uppercase;
+			border-bottom:1px solid rgba(255, 255, 255, 0.3);
+		}
+		p {
+			color:@text_color;
+			padding:5px;
+		}
+	}
+	.igem_button:hover {
+		>.button_description {
+			top:27px;
+		}
+		>img {
+			-webkit-filter: grayscale(100%);
+		}
+	}
+
+
+
+	.red h2 { background: rgb(209, 0, 0); }
+	.purple h2 { background: #8e44ad; }
+	.blue h2 { background: #2c3e50; }
+	.belize h2 { background: #2980b9; }
+	.green h2 { background: #27ae60; }
+	.orange h2 { background: #f39c12; }
+}
+
+
+#category_navbar {
+	color: black;
+	padding-left:0;
+	padding: 5px;
+	.active {
+		background: rgba(255, 156, 0, 0.17);
+		border: 1px solid rgba(0, 0, 0, 0.17);
+	}
+	.nav>li>a {
+		text-transform:uppercase;
+		font-size: 20px;
+		font-family: Railway;
+	}
+	.nav>ul>li, .nav>ul>ul>li {
+		a {
+			font-size:14px;
+		}
+		list-style-type: none;
+		display: block;
+		color: inherit;
+		border:0;
+		margin-left: 10px;
+		padding-top:4px;
+		padding-bottom:4px;
+	}
+	.nav>ul>ul>li {
+		margin-left: 35px;
+	}
+	.nav>ul>li:hover, .nav>ul>ul>li:hover {
+		background: rgba(255, 255, 255, 0.5);
+	}
+}
+
+
+#member_spotlight {
+	h5 {
+		padding: 5px 7px;
+		color: white;
+	}
+	.intro_large h5 {
+		font-size:20px;
+		padding: 15px 15px;
+		margin-bottom: 30px;
+	}
+	#spotlight_question_1 {
+		h5 {
+			background: rgb(192, 57, 43);
+			width: 200px;
+		}
+	}
+	#spotlight_question_2 {
+		h5 {
+			background: rgb(142, 68, 173);
+			width: 192px;
+			margin-left: auto;
+			margin-right: 0;
+		}
+	}
+	#spotlight_question_3 {
+		h5 {
+			background: rgb(41, 128, 185);
+			width: 135px;
+		}
+	}
+	#spotlight_question_intro {
+		h5 {
+			background: rgb(230, 126, 34);
+			width: 176px;
+			margin-left: auto;
+			margin-right: 0;
+
+		}
+	}
+}
+
+#lab_notes {
+	text-align:center;
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+	:hover img {
+		-webkit-transform:scale(1.1);
+	}
+}
+
+
+
+.block_header {
+	display: inline-block;
+	color: white;
+	padding: 7px 11px;	
+	padding-bottom: 5px;
+}
+
+
+.affix {
+	top:30px;
+}
+
+.container {
+	min-width:1080px;
+}
+
+.container div nav {
+	min-width:1080px;
+}
+
+p, ol>li, td, th, caption, .ulstyled>li, .calendar>li {
+	font-family: Roboto;
+	font-size: 15px;
+	a {
+		text-decoration:underline;
+		color:#3b5998;
+	}
+}
+
+
+.calendar {
+	padding-left:10px;
+	>li {font-size:13px;}
+}
+
+figcaption {
+	color: white;
+	padding: 4px 5px;
+	display:inline-block;
+}
+
+figure {
+	margin-bottom:10px;
+}
+
+
+
+
+.red { background: #c0392b; }
+.purple { background: #8e44ad; }
+.blue { background: #2c3e50; }
+.belize { background: #2980b9; }
+.green { background: #27ae60; }
+.orange { background: #f39c12; }
+.darkblue { background: #34495e; }
+
+
+.table-bordered, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+border: 1px solid black;
+}
+
+
+
+.col-lg-offset-1half {
+	margin-left: 11.111111111111%;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
