@@ -1,6 +1,6 @@
 <link rel="shortcut icon" href="http://2014hs.igem.org/wiki/images/2/2f/Tas_igemlogo.png">
-<link rel="stylesheet" href="http://2015.igem.org/Template:TAS_Taipei/css/compiled.css?action=raw&ctype=text/css">
 
+<link rel="stylesheet" href="http://2015.igem.org/Template:TAS_Taipei/css/compiled.css?action=raw&ctype=text/css">
 <link rel="stylesheet" href="http://2015.igem.org/Template:TAS_Taipei/css/bootstrap.min.css?action=raw&ctype=text/css">
 <link rel="stylesheet" href="http://2015.igem.org/Template:TAS_Taipei/css/todc-bootstrap.min.css?action=raw&ctype=text/css">
 

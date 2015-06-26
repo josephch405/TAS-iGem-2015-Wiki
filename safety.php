@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -13,9 +12,9 @@
 		<?php include("./navigation.php"); ?>
 <br>
 			<div id='bodycontainer' class='row card'>
-				<div class="col-lg-3" style='padding-right:0;'>
+				<div class="col-lg-2" style='padding-left:8px;'>
 					<div id="category_navbar">
-						<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:260px;' >
+						<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:168px;' >
 						    <li><a href="#background">Background</a></li>
 						    <ul>
 						    </ul>							    
@@ -40,7 +39,7 @@
 
 				</div>
 
-				<div class="col-lg-9">
+				<div class="col-lg-10">
 					<div class="row">
 						<div class="col-lg-12" id='background'>
 							<h1>Safety</h1>
@@ -134,8 +133,8 @@
 	</div>
 
 
-</body>
-<canvas id="canvas-container"></canvas>
-<script src='static\field.js'></script>
+</body><canvas id="canvas-container"></canvas>
+	<script type="text/javascript" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>
+	
 	
 </html>

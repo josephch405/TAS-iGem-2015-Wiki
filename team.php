@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,19 +6,12 @@
 	
 	<script>
 		$(document).ready(function() {
-			var bio_data = [{"name":"Christopher Yen","photo_url":"http://2014hs.igem.org/wiki/images/a/ae/Chris_s.png","question_1":"The power and potential to manipulate life like machines.","question_2":"Learn, experience, and help.","question_3":"I can move my ears."},
-			{"name":"Rohan Sinha","photo_url":"http://2014hs.igem.org/wiki/images/c/cc/Rohan_s.png","question_1":"I love the fact that every living thing in the world is coded by the same language, DNA, and that with synthetic biology we are now able to not only read it, but also write it.","question_2":"Honestly, I do not want to live forever. But if I could live for longer I would try to develop close and meaningful relationships, want to see all the amazing places in the world, and try my best to help others. Things I try to do now. And I would try and learn different languages.","question_3":"I play tennis and do lots of MUN. I'm pretty sure I can beat most people in refilling tip boxes."},
-			{"name":"Andy Wang","photo_url":"http://2014hs.igem.org/wiki/images/b/ba/Andy_s.png","question_1":"I love that synthetic biology allows me to create new lifeforms with tangible results. It opens up another realm of possibilities for advances in fields such as medicine that I never thought I'd be able to get involved in as a student in high-school.","question_2":"Explore the universe. One day, we'll get there!","question_3":"Memorize the element song."},
-			{"name":"Julie Wong","photo_url":"http://2014hs.igem.org/wiki/images/1/15/Julie_s.png","question_1":"It is super fun!","question_2":"I would go earn a lot of money, and then travel around the world! :D","question_3":"I can crack my pinky. (Like, nonstop)"},
-			{"name":"Edward Hsieh","photo_url":"http://2014hs.igem.org/wiki/images/f/f2/Edward_s.png","question_1":"I like that we are able to modify stuff in the same way as engineering. Machines and people are obviously made up of molecules that behave in different ways, so it's kind of neat that we can operate engineering principles universally.","question_2":"Learn more stuff and acquire more knowledge- there's too much in the world to learn!","question_3":"Manufacturing burps - not glamorous at all"},
-			{"name":"Rachel Kwak","photo_url":"http://2014hs.igem.org/wiki/images/4/4c/Rachel_s.png","question_1":"I like how we're able to manipulate organisms. It sort of makes me feel like I'm playing God.","question_2":"I would master every skill known on earth, including the ability to visualize the fourth dimension. ","question_3":"I can fold my tongue horizontally."},
-			{"name":"Bethany Shieh","photo_url":"http://2014hs.igem.org/wiki/images/2/2f/Bethany_s.png","question_1":"I think it's incredible how much potential this field has in curing diseases and helping humans! :)","question_2":"I would spend my time with the people I love, travel to every country, and learn something new everyday. I would also eat a lot of zucchinis (LOVE THEM).","question_3":"Ummm... I get cramps in almost every body part. Toe cramps, cheek cramps (super painful), tongue cramps, back cramps, etc."},
-{"name":"Phillip Teng","photo_url":"http://2014hs.igem.org/wiki/images/9/9b/Phillip_s.png","question_1":"Synthetic biology is a relatively new field of science, so that means that there is more to be discovered. To me, that signifies a chance that I may have a bigger impact in the field.","question_2":"I would teach philosophy and attempt to solve the meaning of life.","question_3":"I have quite a few hidden talents, but if I tell everyone, it's not hidden anymore."},
-{"name":"Dean Huang","photo_url":"http://2014hs.igem.org/wiki/images/0/08/Dean_s.png","question_1":"My favorite thing about synthetic biology is the range of applications that it can have. It makes me proud to tell people that science is the most diverse and enabling subject of all. Whattup historians.","question_2":"If I could live forever, I would try to learn as much about the world as possible. I would travel the world and learn as much as possible in order to develop my own understandings and theories. I would also earn a Nobel prize and become the smartest person in the world.","question_3":"Handstand pushups"},
-{"name":"Brian Winters","photo_url":"http://2014hs.igem.org/wiki/images/c/c0/Brian_s.png","question_1":"For me, the best thing about synthetic bio is that it sounds smart.","question_2":"If I could live forever I would sleep in a lot later on weekends.","question_3":"Starting riots"},
-{"name":"Xiaoyang Kao","photo_url":"http://2014hs.igem.org/wiki/images/1/18/Xiao_s.png","question_1":"I like how much synthetic biology resembles traditional engineering.","question_2":"Wait until I can go to Mars and live there!","question_3":"I can work for a very long time before sleeping."},
-{"name":"Jude Clapper","photo_url":"http://2014hs.igem.org/wiki/images/6/6e/Clapper_s.png","question_1":" I like, because of synthetic biology, that biological parts are becoming increasingly standardized.  This allows for the design process of synthetic biology to really add a lot of creativity when trying to solve industrial, environmental or health related problems.","question_2":"I think that I would try out many different careers if I could live forever.  I’ve always wanted to be a scuba diver instructor, an adventure travel guide or a gourmet chef.  If I could live forever, I’d have the time to test out many different careers.","question_3":"I’m a classically trained singer, amature radio operator (KB3AVY), passed the ground school test for flying small aircraft, have advanced open water scuba certification and can juggle."},
-{"name":"","photo_url":"","question_1":"","question_2":"","question_3":""}];
+			var bio_data = [{"name":"Dylan Chiu","photo_url":"http://2015.igem.org/wiki/images/c/c3/DChiu.JPG","question_1":"","question_2":""},
+			{"name":"Bryan Tseng","photo_url":"http://2015.igem.org/wiki/images/e/e0/BTseng.JPG","question_1":"","question_2":""},
+			{"name":"Andrew Chen","photo_url":"http://2015.igem.org/wiki/images/b/b4/AWiggins.JPG","question_1":"","question_2":""},
+			{"name":"Joseph Chuang","photo_url":"http://2015.igem.org/wiki/images/2/25/JChuang.JPG","question_1":"","question_2":""},
+			{"name":"Daphne Liu","photo_url":"http://2015.igem.org/wiki/images/2/2f/DLiu.JPG","question_1":"","question_2":""},
+			{"name":"Leon Yim","photo_url":"http://2015.igem.org/wiki/images/8/8e/LYim.JPG","question_1":"","question_2":""}];
 
 
 $('#portrait_container img').click(function() {
@@ -36,12 +28,9 @@ $('#portrait_container img').click(function() {
 	$("#spotlight_question_3").removeClass('intro_large');
 
 
-
-
 	$("#spotlight_name").html(bio_data[index]["name"]);
 	$("#spotlight_question_1 p").html(bio_data[index]["question_1"]);
 	$("#spotlight_question_2 p").html(bio_data[index]["question_2"]);
-	$("#spotlight_question_3 p").html(bio_data[index]["question_3"]);
 	$("#spotlight_image").attr('src', bio_data[index]["photo_url"]);
 });
 
@@ -53,11 +42,11 @@ $('#portrait_container img').click(function() {
 <body data-spy="scroll" data-target="#category_navbar">
 	<div class="container" style='z-index:10;position:relative;'>
 		<?php include("./navigation.php"); ?>
-
-		<div id='bodycontainer' class='row'>
-			<div class="col-lg-3" style='padding-right:0;'>
+<br>
+		<div id='bodycontainer' class='row card'>
+			<div class="col-lg-2" style='padding-left:8px;'>
 				<div id="category_navbar">
-					<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:200px;' >
+					<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:168px;' >
 						<li><a href="#members">Members</a></li>
 						<ul>
 						</ul>							    
@@ -74,7 +63,7 @@ $('#portrait_container img').click(function() {
 
 			</div>
 
-			<div class="col-lg-9">
+			<div class="col-lg-10">
 				<div class="row">
 					<div class="col-lg-12">
 						<h1>Team</h1>
@@ -91,20 +80,14 @@ $('#portrait_container img').click(function() {
 				<div class="row">
 					<div class="col-lg-12 col-md-6 col-sm-6" id="portrait_container">
 						<div class="row">
-							<img data-index='0' src="http://2014hs.igem.org/wiki/images/a/ae/Chris_s.png">
-							<img data-index='1' src="http://2014hs.igem.org/wiki/images/c/cc/Rohan_s.png">
-							<img data-index='2' src="http://2014hs.igem.org/wiki/images/b/ba/Andy_s.png">
-							<img data-index='3' src="http://2014hs.igem.org/wiki/images/1/15/Julie_s.png">
-							<img data-index='4' src="http://2014hs.igem.org/wiki/images/f/f2/Edward_s.png">
-							<img data-index='5' src="http://2014hs.igem.org/wiki/images/4/4c/Rachel_s.png">
+							<img data-index='0' src="http://2015.igem.org/wiki/images/c/c3/DChiu.JPG">
+							<img data-index='1' src="http://2015.igem.org/wiki/images/e/e0/BTseng.JPG">
+							<img data-index='2' src="http://2015.igem.org/wiki/images/b/b4/AWiggins.JPG">
+							<img data-index='3' src="http://2015.igem.org/wiki/images/2/25/JChuang.JPG">
+							<img data-index='4' src="http://2015.igem.org/wiki/images/2/2f/DLiu.JPG">
+							<img data-index='5' src="http://2015.igem.org/wiki/images/8/8e/LYim.JPG">
 						</div>
 						<div class="row">
-							<img data-index='6' src="http://2014hs.igem.org/wiki/images/2/2f/Bethany_s.png">
-							<img data-index='7' src="http://2014hs.igem.org/wiki/images/9/9b/Phillip_s.png">
-							<img data-index='8' src="http://2014hs.igem.org/wiki/images/0/08/Dean_s.png">
-							<img data-index='9' src="http://2014hs.igem.org/wiki/images/c/c0/Brian_s.png">
-							<img data-index='10' src="http://2014hs.igem.org/wiki/images/1/18/Xiao_s.png">
-							<img data-index='11' src="http://2014hs.igem.org/wiki/images/6/6e/Clapper_s.png">
 						</div>
 					</div>
 					<div class="col-lg-12" id='member_spotlight'>
@@ -119,15 +102,11 @@ $('#portrait_container img').click(function() {
 							</div>
 							<div class="col-lg-8">
 								<div class='intro_large col-lg-6' id='spotlight_question_1'>
-									<h5 style=''>What do you like best about synthetic biology?</h5>
+									<h5 style=''>What got you interested in synthetic biology?</h5>
 									<p style='display:none;'></p>
 								</div>
-								<div class='intro_large col-lg-6' id='spotlight_question_2'>
-									<h5 style=''>What would you do if you could live forever?</h5>								
-									<p style='display:none;'></p>								
-								</div>
 								<div class='intro_large col-lg-6' id='spotlight_question_3'>
-									<h5 style=''>Hidden Talents?</h5>
+									<h5 style=''>Dream career or lifegoal?</h5>
 									<p style='display:none;'></p>
 								</div>
 								<div class='intro_large col-lg-6' id='spotlight_question_intro'>
