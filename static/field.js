@@ -1,60 +1,65 @@
 var c = document.getElementById("canvas-container");
 var ctx = c.getContext("2d");
-var counter = 0;
-var cubes = [[],[]];
+var stripeFill = [];
+var stripeVelocity = [];
 var unitSize;
 var colorText = "200, 200, 200,";
-
+var stripeCount = 100;
 ctx.canvas.width  = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
+var upperLimit = 100;
+var lowerLimit = 0;
 
-unitSize = window.innerWidth/32;
+unitSize = window.innerWidth/stripeCount;
 
-for (var i = 0; i < 32; i++){
-  cubes[i] = [];
-  for (var ii = 0; ii < window.innerHeight/unitSize; ii++){
-    cubes[i].push(new Cube(i * unitSize, ii * unitSize));
+for (var i = 0; i < stripeCount; i++){
+  stripeFill[i] = Math.round(Math.random()*upperLimit);
+  stripeVelocity[i] = random(-.6,.6);
+}
+
+function wiggle(){
+  for (var i = 0; i < stripeCount; i++){
+    stripeVelocity[i] += random(-.1, .1);
+    if(Math.abs(stripeVelocity[i]) > 3){
+      stripeVelocity[i] = 3*Math.abs(stripeVelocity[i])/stripeVelocity[i];
+    }
+    stripeFill[i] += stripeVelocity[i];
+    if (stripeFill[i]<lowerLimit){
+      stripeFill[i] = lowerLimit;
+      stripeVelocity[i] = 3;
+    }
+    else if (stripeFill[i]>upperLimit){
+      stripeFill[i] = upperLimit;
+      stripeVelocity[i] = -3;
+    }
   }
 }
 
-function Cube(x, y){
-    this.x = x;
-    this.y = y;
-    this.strength = 0;
-    this.vStrength = 0;
-    this.step = function(){
-      this.vStrength += (Math.random()-.5)/400;
-      this.strength += this.vStrength;
-
-      if (this.strength > .5){
-        this.strength = .5;
-        this.vStrength = 0;
-      }
-      else if (this.strength <= 0){
-        this.strength = 0;
-        this.vStrength = 0;
-      }
-    }
-    
-    this.paint = function(){
-      ctx.fillStyle = "rgba(" + colorText + this.strength +")";
-      ctx.fillRect(this.x,this.y,unitSize,unitSize);
-    }
-}
-
-setInterval(execute,20);
+setInterval(execute,50);
 
 function execute(){
-    counter += 1;
-    ctx.fillStyle = "rgba(256, 256, 256, 1)";
+    wiggle();
+    ctx.fillStyle = "rgba(255, 255, 255, 1)";
     ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
-    for (var i in cubes){
-      for (var ii in cubes[i]){
-        cubes[i][ii].step();
-        cubes[i][ii].paint();
-      }
+
+    for (var i = 0; i < stripeCount; i++){
+      ctx.fillStyle = "rgba(180,180,180," + stripeFill[i]/255 + ")" ;
+      ctx.fillRect(i*unitSize,0,unitSize,window.innerHeight)
     }
 }
+
+function bob(item){
+  return function(){item.css({display:"none"});}
+}
+
+function random (x, y){
+  var answer = Math.random()*(y-x)+x;
+  return answer;
+}
+
+
+
+
 
 $(".dropdown").mouseenter(function(){
   //console.log("bobby");

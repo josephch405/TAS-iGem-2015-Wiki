@@ -1,6 +1,6 @@
 <div class="row center-block" style = "text-align: left;">
 	<nav style='font-family:Lato;font-size:22px;background-color:#2196f3;-webkit-transform: translateZ(0);z-index: 100;position: fixed;box-shadow: 0px 0px 10px black;'>
-		<ul>
+		<ul style='margin-left:0px'>
 			<li class="dropdown">
 				<a href="http://2015.igem.org/Team:TAS_Taipei/project"><h4 class="dropdown-toggle disabled" data-toggle="dropdown"><b>PROJECT</b></h4></a>
 				<div class="dropdown-menu">
@@ -10,10 +10,10 @@
 					</div>
 					<div class='subcategories_container'>
 						<div>
-							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/project#background">Background</a></h5>
+							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/project#summary">Summary</a></h5>
 						</div>
 						<div>
-							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/project#background">Summary</a></h5>
+							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/project#background">Background</a></h5>
 						</div>
 						<div>
 							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/project/achievements">Achievements</a></h5>
@@ -25,7 +25,7 @@
 				</div>
 			</li>
 			<li class="dropdown">
-				<a href="http://2015.igem.org/Team:TAS_Taipei/wetlab"><h4 class='dropdown-toggle disabled' data-toggle="dropdown"><b>WETLAB</b></h4></a>
+				<a href="http://2015.igem.org/Team:TAS_Taipei/wetlab"><h4 class='dropdown-toggle disabled' data-toggle="dropdown"><b>EXPERIMENTAL</b></h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
 						<img src="http://2015.igem.org/wiki/images/f/f8/Tas_icon_wetlab.png">
@@ -50,7 +50,7 @@
 				</div>
 			</li>
 			<li class="dropdown">
-				<a href="http://2015.igem.org/Team:TAS_Taipei/modeling"><h4 class='dropdown-toggle disabled' data-toggle="dropdown"><b>MODELING</b></h4></a>
+				<a href="http://2015.igem.org/Team:TAS_Taipei/Modeling"><h4 class='dropdown-toggle disabled' data-toggle="dropdown"><b>MODELING</b></h4></a>
 				<div class="dropdown-menu">
 					<div style='height:100px;'>
 						<img src="http://2015.igem.org/wiki/images/3/3e/Tas_icon_modeling.png">
@@ -58,13 +58,13 @@
 					</div>
 					<div class='subcategories_container'>
 						<div>
-							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#inhibVsGzmb">Inhibitor vs. GzmB Activity</a></h5>
+							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#serpin">SerpinA3N vs. GZMB</a></h5>
 						</div>
 						<div>
-							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#gzmbVsCell">GzmB Concentration vs. Cell Viability</a></h5>
+							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#act">ACT3m vs. GZMB</a></h5>
 						</div>
 						<div>
-							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#safetySwitch">Safety Switch</a></h5>
+							<h5><a href="http://2015.igem.org/Team:TAS_Taipei/modeling#analysis">Analysis</a></h5>
 						</div>
 					</div>
 				</div>
@@ -126,17 +126,17 @@
 <br>
 <div class="row center-block" style = "padding:10px;width:960px;background-color:#FFC107;box-shadow:0px 0px 5px black">
 		<div class="row" style = "text-align:center;">
-				<div class="col-lg-2">
+				<div class="col-sm-2">
 					<a href="http://2015.igem.org/Team:TAS_Taipei" style='text-decoration: none'><img src="http://2015.igem.org/wiki/images/2/2f/Tas_igemlogo.png
 " alt="" style="width: 100px;"></a>
 				</div>
-				<div class="col-lg-8" style='text-align:center;'>
+				<div class="col-sm-8" style='text-align:center;'>
 					<a href="http://2015.igem.org/Team:TAS_Taipei" style='text-decoration: none;'>
 						<h2 style="font-family:'Lato';letter-spacing:10px;color: white; font-size: 60px;  margin-top: 0;  margin-bottom: 0;"><b>
 						<img style = "height:64px;vertical-align:top" src = "http://2015.igem.org/wiki/images/5/5b/Tas_icon_project.png">RANZYME B</b></h2>
 					</a>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-sm-2">
 					<a href="http://igem.org/HS"><img src="http://2015.igem.org/wiki/images/e/eb/Tas_igemlogo2.png" alt="" style="width: 100px;"></a>
 				</div>
 			</div>

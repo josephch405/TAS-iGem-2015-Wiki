@@ -12,7 +12,7 @@
 		<?php include("./navigation.php"); ?>
 		<br>
 			<div id='bodycontainer' class='row card'>
-				<div class="col-lg-2" style='padding-left:8px;'>
+				<div class="col-sm-2" style='padding-left:8px;'>
 					<div id="category_navbar">
 						<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:168px;' >
 						    <li><a href="#circuit_regulation">Notebook</a></li>
@@ -39,42 +39,42 @@
 
 				</div>
 
-				<div class="col-lg-9">
+				<div class="col-sm-9">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-sm-12">
 							<h1>Notebook</h1>
 							<h3>Lab Notes</h3>
 						</div>
 					</div>
 
 					<div class="row" id='lab_notes'>
-						<div class="col-lg-2 col-lg-offset-1">
+						<div class="col-sm-2 col-sm-offset-1">
 							<a href="http://2014hs.igem.org/wiki/images/2/28/February.pdf">
 								<img src="http://2014hs.igem.org/wiki/images/d/d5/Pdf-blue.png" alt="">
 								<h5>February</h5>
 							</a>
 							
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<a href="http://2014hs.igem.org/wiki/images/5/5c/March.pdf">
 								<img src="http://2014hs.igem.org/wiki/images/0/0a/Pdf-purple.png" alt="">
 								<h5>March</h5>
 							</a>
 							
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<a href="http://2014hs.igem.org/wiki/images/1/19/April.pdf">
 								<img src="http://2014hs.igem.org/wiki/images/7/79/Pdf-green.png" alt="">
 								<h5>April</h5>
 							</a>
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<a href="http://2014hs.igem.org/wiki/images/3/31/May.pdf">
 								<img src="http://2014hs.igem.org/wiki/images/2/2a/Pdf-yellow.png" alt="">
 								<h5>May</h5>								
 							</a>
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<a href="http://2014hs.igem.org/wiki/images/3/38/June.pdf">
 								<img src="http://2014hs.igem.org/wiki/images/b/b1/Pdf-red.png" alt="">
 								<h5>June</h5>								
@@ -84,55 +84,55 @@
 					</div>
 
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-sm-12">
 							<h3>Calendar</h3>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='August'>August</h4>
 							<ul class='calendar'>
 								<li><b>SAMPLE</b><br>SAMPLE</li>
 							</ul>
 						</div>
 
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='September'>September</h4>					
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='October'>October</h4>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='November'>November</h4>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='December'>December</h4>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='January'>January</h4>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='February'>February</h4>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='March'>March</h4>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4">
 							<h4 class='block_header blue' id='April'>April</h4>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-5">
+						<div class="col-sm-5">
 							<h4 class='block_header blue' id='May'>May</h4>
 						</div>
-						<div class="col-lg-5">
+						<div class="col-sm-5">
 							<h4 class='block_header blue' id='June'>June</h4>
 						</div>
 					</div>

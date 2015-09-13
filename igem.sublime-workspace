@@ -96,10 +96,20 @@
 	"buffers":
 	[
 		{
+			"contents": "Searching 82 files for \"field.js\"\n\nC:\\xampp\\htdocs\\achievements.php:\n   51  \n   52  <canvas id=\"canvas-container\"></canvas>\n   53: <script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n   54  \n   55  \n\nC:\\xampp\\htdocs\\homepage.php:\n   51  \n   52  	<canvas id=\"canvas-container\"></canvas>\n   53: 	<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n   54  	<?php include(\"./footer.php\"); ?>\n   55  </body>\n\nC:\\xampp\\htdocs\\human_practice.php:\n   66  \n   67  <canvas id=\"canvas-container\"></canvas>\n   68: <script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n   69  \n   70  \n\nC:\\xampp\\htdocs\\index.html:\n  557  \n  558  	<script src='http://rawgit.com/xyk2/tas_igem2014/master/static/libs.min.js'></script>\n  559: 	<script src='./static/field.js'></script>\n  560  	<script>\n  561  		sketchItem.start();\n\nC:\\xampp\\htdocs\\medals.php:\n   52  \n   53  <canvas id=\"canvas-container\"></canvas>\n   54: <script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n   55  \n   56  \n\nC:\\xampp\\htdocs\\modeling.php:\n  120  \n  121  		<canvas id=\"canvas-container\"></canvas>\n  122: 		<script src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  123  	</body>\n  124  \n\nC:\\xampp\\htdocs\\notebook.php:\n  153  \n  154  	<canvas id=\"canvas-container\"></canvas>\n  155: 	<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  156  	\n  157  </body>\n\nC:\\xampp\\htdocs\\project.php:\n  132  		</div>\n  133  		<canvas id=\"canvas-container\"></canvas>\n  134: 		<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  135  	</body>\n  136  	</html>\n\nC:\\xampp\\htdocs\\project_abstract.php:\n   84  \n   85  	<canvas id=\"canvas-container\"></canvas>\n   86: 	<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n   87  	\n   88  </body>\n\nC:\\xampp\\htdocs\\project_overview.php:\n   80  \n   81  	<canvas id=\"canvas-container\"></canvas>	\n   82: 	<script src='static\\field.js'></script>\n   83  </body>\n   84  \n\nC:\\xampp\\htdocs\\safety.php:\n  135  \n  136  </body><canvas id=\"canvas-container\"></canvas>\n  137: 	<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  138  	\n  139  	\n\nC:\\xampp\\htdocs\\team.php:\n  195  </body>\n  196  <canvas id=\"canvas-container\"></canvas>\n  197: <script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  198  \n  199  </html>\n\nC:\\xampp\\htdocs\\wetlab.php:\n  168  		</div>\n  169  		<canvas id=\"canvas-container\"></canvas>\n  170: 		<script type=\"text/javascript\" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>\n  171  	</body>\n  172  	</html>\n\n13 matches across 13 files\n",
+			"settings":
+			{
+				"buffer_size": 3257,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
 			"file": "project.php",
 			"settings":
 			{
-				"buffer_size": 3474,
+				"buffer_size": 9925,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,31 +117,63 @@
 			"file": "homepage.php",
 			"settings":
 			{
-				"buffer_size": 1375,
+				"buffer_size": 3263,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "wetlab.php",
 			"settings":
 			{
-				"buffer_size": 2054,
+				"buffer_size": 13440,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "navigation.php",
+			"file": "modeling.php",
 			"settings":
 			{
-				"buffer_size": 6499,
-				"line_ending": "Windows"
+				"buffer_size": 9233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "human_practice.php",
+			"settings":
+			{
+				"buffer_size": 1929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "safety.php",
+			"settings":
+			{
+				"buffer_size": 8543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 121605,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "team.php",
 			"settings":
 			{
-				"buffer_size": 8032,
+				"buffer_size": 15401,
 				"line_ending": "Unix"
 			}
 		}
@@ -143,7 +185,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 381.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -160,7 +202,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 386.0
+		"width": 406.0
 	},
 	"console":
 	{
@@ -184,22 +226,42 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/modeling.php",
-		"/C/xampp/htdocs/wetlab.php",
-		"/C/xampp/htdocs/project.php",
+		"/C/xampp/htdocs/homepage.less",
+		"/C/xampp/htdocs/compiled.css",
+		"/C/xampp/htdocs/medals.php",
+		"/C/xampp/htdocs/head.php",
+		"/C/xampp/htdocs/static/bootstrap.css",
 		"/C/xampp/htdocs/navigation.php",
+		"/C/xampp/htdocs/human_practice.php",
+		"/C/xampp/htdocs/index.html",
+		"/C/xampp/htdocs/homepage.php",
+		"/C/xampp/htdocs/achievements.php",
+		"/C/xampp/htdocs/static/field_homepage.js",
+		"/C/xampp/htdocs/footer.php",
+		"/C/xampp/htdocs/wetlab.php",
+		"/C/xampp/htdocs/team.php",
+		"/C/xampp/htdocs/modeling.php",
+		"/C/xampp/htdocs/jquery-2.1.3.min.js",
+		"/C/xampp/htdocs/static/field.js",
+		"/C/xampp/htdocs/static/slidesjs/jquery.slides.js",
+		"/C/xampp/htdocs/bootstrap.min.js",
+		"/C/xampp/htdocs/static/bootstrap.min.css",
+		"/C/xampp/htdocs/project_overview.php",
+		"/C/xampp/htdocs/project.php",
+		"/C/xampp/htdocs/tile.js",
+		"/C/xampp/htdocs/project_abstract.php",
+		"/C/Users/Administrator/Google Drive/Bloks/manifest.json",
+		"/C/Users/Administrator/Desktop/playBloks.github.io/index.html",
+		"/C/Users/Administrator/Desktop/playBloks.github.io/Blocs.pde",
+		"/C/xampp/htdocs/attributions.php",
+		"/C/xampp/htdocs/overview.php",
+		"/C/xampp/htdocs/notebook.php",
+		"/C/xampp/htdocs/research.php",
+		"/C/xampp/htdocs/safety.php",
+		"/C/xampp/htdocs/modeling_overview.php",
 		"/C/Users/Administrator/Desktop/home.rms",
 		"/C/xampp/htdocs/auto list",
-		"/C/xampp/htdocs/human_practice.php",
-		"/C/xampp/htdocs/compiled.css",
-		"/C/xampp/htdocs/project_overview.php",
-		"/C/xampp/htdocs/achievements.php",
-		"/C/xampp/htdocs/safety.php",
-		"/C/xampp/htdocs/notebook.php",
-		"/C/xampp/htdocs/head.php",
 		"/C/xampp/htdocs/pic list",
-		"/C/xampp/htdocs/homepage.php",
-		"/C/xampp/htdocs/team.php",
 		"/C/Users/Administrator/Desktop/all but css and hp.rms",
 		"/C/Users/Administrator/Desktop/achievements.rms",
 		"/C/Users/Administrator/Desktop/all but css and hp",
@@ -209,31 +271,23 @@
 		"/C/Users/Administrator/Desktop/wetlab.rms",
 		"/C/Users/Administrator/Desktop/modeling.rms",
 		"/C/Users/Administrator/Desktop/notebook.rms",
-		"/C/xampp/htdocs/project_abstract.php",
 		"/C/Users/Administrator/Google Drive/12grade/Brawl/Brawl/Brawl.sublime-project",
 		"/C/xampp/htdocs/style.less",
-		"/C/xampp/htdocs/homepage.less",
 		"/C/xampp/htdocs/style.css",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/footer.php",
 		"/C/Users/Administrator/Desktop/temp.html",
 		"/C/Users/Administrator/Desktop/fieldb.js",
-		"/C/xampp/htdocs/static/field.js",
 		"/C/xampp/htdocs/igem_server_reset.less",
 		"/C/Users/Administrator/Desktop/field.js",
 		"/C/xampp/htdocs/static/compiled.css",
 		"/C/xampp/htdocs/todc-bootstrap/css/todc-bootstrap.min.css",
-		"/C/xampp/htdocs/bootstrap.min.js",
-		"/C/xampp/htdocs/static/bootstrap.min.css",
 		"/C/Users/Administrator/Desktop/TAS Taipei iGEM Wiki.html",
 		"/C/xampp/htdocs/static/field_homepage_squares.js",
 		"/C/Users/Administrator/Desktop/TAS Taipei iGEM Wiki.htm",
 		"/C/Users/Administrator/Desktop/Modeling - TAS Taipei iGEM Wiki.html",
 		"/C/Users/Administrator/Desktop/temp_files/css",
-		"/C/xampp/htdocs/static/field_homepage.js",
 		"/C/xampp/htdocs/static/field_homepage_triangle.js",
 		"/C/xampp/htdocs/static/SlideShowCSS.css",
-		"/C/xampp/htdocs/tile.js",
 		"/C/xampp/htdocs/test.html",
 		"/C/xampp/phpMyAdmin/config.inc.php",
 		"/C/Users/Administrator/Google Drive/11grade/Habivator/js/popup.js",
@@ -292,13 +346,14 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 100.0,
 		"where_history":
 		[
+			"<current file>,<open folders>",
 			"<current file>",
 			"<current file>,C:\\xampp\\htdocs",
 			"<current file>",
@@ -310,6 +365,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"margin-bottom: 10",
+			"margin",
+			"h5",
+			"padding-to",
+			"abs",
+			"field.js",
+			"edward",
+			"#portrai",
+			"img",
+			"css",
+			"padding",
+			"webkit-box",
+			"webkit-box-si",
+			"webkit",
+			"margin",
+			"color",
+			"/*",
+			"h4",
+			"*",
+			"noprint",
+			"css",
+			"we are fo",
+			"'",
+			"about",
+			"lg",
+			"sm",
+			"ls",
 			"spotli",
 			"bio_data",
 			"talent",
@@ -410,34 +492,7 @@
 			"display",
 			"none",
 			"dropdown-men",
-			"display",
-			"font-family",
-			"font-famil",
-			"font",
-			"background",
-			"dropdown",
-			"width",
-			"slides",
-			"slide",
-			"canvas",
-			"particle",
-			"dropdow",
-			"41",
-			"dropdown",
-			"dropdo",
-			"subcatego",
-			"shadow",
-			"white",
-			"dropdown",
-			"nav",
-			"child",
-			"blue",
-			"color",
-			"NUM",
-			"js",
-			"sketch",
-			"fx",
-			"pushamoun"
+			"display"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -445,6 +500,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			"sm",
 			"Lato",
 			"stripeCount",
 			"ctx",
@@ -463,33 +520,100 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "project.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3474,
+						"buffer_size": 3257,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										211,
+										219
+									],
+									[
+										455,
+										463
+									],
+									[
+										744,
+										752
+									],
+									[
+										974,
+										982
+									],
+									[
+										1211,
+										1219
+									],
+									[
+										1434,
+										1442
+									],
+									[
+										1686,
+										1694
+									],
+									[
+										1947,
+										1955
+									],
+									[
+										2215,
+										2223
+									],
+									[
+										2416,
+										2424
+									],
+									[
+										2638,
+										2646
+									],
+									[
+										2885,
+										2893
+									],
+									[
+										3144,
+										3152
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								533,
-								533
+								1780,
+								1785
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"bs_sintax": "find results.hidden-tmlanguage",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
-						"translation.x": 597.0,
-						"translation.y": 72.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -497,28 +621,294 @@
 				},
 				{
 					"buffer": 1,
-					"file": "homepage.php",
+					"file": "project.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1375,
+						"buffer_size": 9925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								963,
-								963
+								168,
+								168
 							]
 						],
 						"settings":
 						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "0db74886",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "homepage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2235,
+								2235
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "76de269c",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 397.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "dce412cd",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wetlab.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "005408c1",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 166.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "modeling.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "6866aa0c",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 216.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "human_practice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1929
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "240bff57",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 208.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "safety.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "46bb799b",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 144.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "static/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								121605
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "ef43e127",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 103950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "team.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8644,
+								8644
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "94ca1868",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Eightlime Dark (SL).tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 176.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -527,96 +917,8 @@
 			]
 		},
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "wetlab.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2054,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "navigation.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 152.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "team.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8032,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								877,
-								877
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -648,7 +950,7 @@
 		"cols":
 		[
 			0.0,
-			0.357671367842,
+			0.954954954955,
 			1.0
 		],
 		"rows":
@@ -680,7 +982,171 @@
 		"selected_items":
 		[
 			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"home",
+				"homepage.php"
+			],
+			[
+				"hoe",
+				"homepage.less"
+			],
+			[
 				"team",
+				"team.php"
+			],
+			[
+				"css",
+				"static\\bootstrap.css"
+			],
+			[
+				"saf",
+				"safety.php"
+			],
+			[
+				"human",
+				"human_practice.php"
+			],
+			[
+				"boot",
+				"static\\bootstrap.css"
+			],
+			[
+				"bootstrap",
+				"static\\bootstrap.css"
+			],
+			[
+				"mode",
+				"modeling.php"
+			],
+			[
+				"compi",
+				"compiled.css"
+			],
+			[
+				"wetlab",
+				"wetlab.php"
+			],
+			[
+				"project",
+				"project.php"
+			],
+			[
+				"php",
+				"navigation.php"
+			],
+			[
+				"meda",
+				"medals.php"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"head",
+				"head.php"
+			],
+			[
+				"huma",
+				"human_practice.php"
+			],
+			[
+				"achi",
+				"achievements.php"
+			],
+			[
+				"homepa",
+				"homepage.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"achieve",
+				"achievements.php"
+			],
+			[
+				"field",
+				"static\\field.js"
+			],
+			[
+				"slides",
+				"static\\slidesjs\\jquery.slides.js"
+			],
+			[
+				"jquery.min",
+				"jquery-2.1.3.min.js"
+			],
+			[
+				"bootstra",
+				"static\\bootstrap.css"
+			],
+			[
+				"comp",
+				"compiled.css"
+			],
+			[
+				"model",
+				"modeling.php"
+			],
+			[
+				"wetl",
+				"wetlab.php"
+			],
+			[
+				"boo",
+				"static\\bootstrap.css"
+			],
+			[
+				"boots",
+				"static\\bootstrap.css"
+			],
+			[
+				"bootstr",
+				"bootstrap.min.js"
+			],
+			[
+				"navi",
+				"navigation.php"
+			],
+			[
+				"proj",
+				"project.php"
+			],
+			[
+				"wetla",
+				"wetlab.php"
+			],
+			[
+				".js",
+				"tile.js"
+			],
+			[
+				"field.js",
+				"static\\field_homepage.js"
+			],
+			[
+				"fieldjs",
+				"static\\field.js"
+			],
+			[
+				"hum",
+				"human_practice.php"
+			],
+			[
+				"pro",
+				"project_overview.php"
+			],
+			[
+				"projec",
+				"project_abstract.php"
+			],
+			[
+				"tea",
 				"team.php"
 			],
 			[
@@ -692,36 +1158,12 @@
 				"wetlab.php"
 			],
 			[
-				"home",
-				"homepage.php"
-			],
-			[
-				"projec",
-				"project.php"
-			],
-			[
-				"navi",
-				"navigation.php"
-			],
-			[
 				"practic",
 				"human_practice.php"
 			],
 			[
-				"project",
-				"project.php"
-			],
-			[
 				"auto",
 				"auto list"
-			],
-			[
-				"pro",
-				"project.php"
-			],
-			[
-				"mode",
-				"modeling.php"
 			],
 			[
 				"hom",
@@ -732,16 +1174,8 @@
 				"medals.php"
 			],
 			[
-				"css",
-				"compiled.css"
-			],
-			[
 				"pic",
 				"pic list"
-			],
-			[
-				"head",
-				"head.php"
 			],
 			[
 				"note",
@@ -760,24 +1194,8 @@
 				"safety.php"
 			],
 			[
-				"hum",
-				"human_practice.php"
-			],
-			[
-				"model",
-				"modeling.php"
-			],
-			[
 				"modelin",
 				"modeling.php"
-			],
-			[
-				"huma",
-				"human_practice.php"
-			],
-			[
-				"compi",
-				"compiled.css"
 			],
 			[
 				"safet",
@@ -790,10 +1208,6 @@
 			[
 				"navig",
 				"navigation.php"
-			],
-			[
-				"homepa",
-				"homepage.php"
 			],
 			[
 				"homep",
@@ -836,24 +1250,12 @@
 				"C:\\Users\\Administrator\\Desktop\\fieldb.js"
 			],
 			[
-				"field",
-				"C:\\Users\\Administrator\\Desktop\\field.js"
-			],
-			[
 				"modeli",
 				"modeling.php"
 			],
 			[
-				"footer",
-				"footer.php"
-			],
-			[
 				"compile",
 				"compiled.css"
-			],
-			[
-				"human",
-				"human_practice.php"
 			],
 			[
 				"less",
@@ -866,14 +1268,6 @@
 			[
 				"bootstrapmin.css",
 				"static\\bootstrap.min.css"
-			],
-			[
-				"bootstra",
-				"bootstrap.min.js"
-			],
-			[
-				"boots",
-				"bootstrap.min.js"
 			],
 			[
 				"find",
@@ -926,10 +1320,6 @@
 			[
 				"head.php",
 				"head.php"
-			],
-			[
-				".js",
-				"tile.js"
 			]
 		],
 		"width": 0.0
@@ -956,14 +1346,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":

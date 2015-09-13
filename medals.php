@@ -15,8 +15,8 @@
 		<br>
 		<div id='bodycontainer' class='row card' style = "text-align:center">
 			<h1>Medal Requirements</h1>
-			<div class = "col-lg-12">
-				<div class = "col-lg-4">
+			<div class = "col-sm-12">
+				<div class = "col-sm-4">
 					<br><br><br>
 					<img src = "http://2015.igem.org/wiki/images/4/4e/Tas_bronze.png">
 					<h4 style = "padding-top:0px">
@@ -27,7 +27,7 @@
 						New BioBrick registered<br><br>
 					</h4>
 				</div>
-				<div class = "col-lg-4">
+				<div class = "col-sm-4">
 					<img src = "http://2015.igem.org/wiki/images/7/71/Tas_gold.png">
 					<h4 style = "padding-top:0px">
 						Targeted questions "beyond the lab bench"<br><br>
@@ -36,7 +36,7 @@
 						Functional prototype produced
 					</h4>
 				</div>
-				<div class = "col-lg-4">
+				<div class = "col-sm-4">
 					<br><br><br>
 					<img src = "http://2015.igem.org/wiki/images/b/be/Tas_silver.png">
 					<h4 style = "padding-top:0px">
@@ -48,10 +48,7 @@
 			</div>
 		</div>
 	</div>
+	<?php include("./footer.php"); ?>
 </body>
-
-<canvas id="canvas-container"></canvas>
-<script type="text/javascript" src='http://2015.igem.org/Template:TAS_Taipei/js/field.js?action=raw&ctype=text/javascript'></script>
-
 
 </html>

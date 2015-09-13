@@ -14,20 +14,20 @@
 		<?php include("./navigation.php"); ?>
 
 			<div id='bodycontainer' class='row'>
-				<div class="col-lg-12">
+				<div class="col-sm-12">
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h1>Human Practice</h1>
 						</div>
 					</div>
 					<div class="row">
-						<div class='col-lg-10'>
+						<div class='col-sm-10'>
 							<p>Human practice is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea corporis nemo, iure beatae rerum dolores ducimus necessitatibus, adipisci alias ratione, molestias libero inventore error, ipsa neque et fugit. Ratione libero dolor nulla praesentium autem provident enim quis, dolores quo itaque commodi facilis deserunt quibusdam iusto excepturi accusantium ipsam animi. Perferendis.</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Research</h3>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Outreach</h3>
 						</div>
 					</div>
@@ -61,7 +61,7 @@
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Entertainment</h3>
 						</div>
 					</div>

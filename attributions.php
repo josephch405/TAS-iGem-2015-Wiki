@@ -14,15 +14,15 @@
 		<?php include("./navigation.php"); ?>
 
 			<div id='bodycontainer' class='row'>
-				<div class="col-lg-8 col-lg-offset-2">
+				<div class="col-sm-8 col-sm-offset-2">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-sm-12">
 							<h1>Attributions</h1>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-sm-12">
 <p>Project Head - Rohan Sinha</p>
 <p>Human Practice Head - Andy Wang</p>
 <p>Experimental Head - Phillip Teng</p>
@@ -50,22 +50,22 @@
 					</div>
 
 					<div class="row">
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/f/f3/Image00.gif" alt="">
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/d/db/Image01.jpg" alt="">
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/9/9b/Image02.png" alt="">
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/b/b8/Image03.png" alt="">
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/7/7d/Image04.png" alt="">
 						</div>
-						<div class="col-lg-2">
+						<div class="col-sm-2">
 							<img src="http://2014hs.igem.org/wiki/images/2/20/Image05.jpg" alt="">
 						</div>
 

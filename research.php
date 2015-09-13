@@ -12,26 +12,26 @@
 		<?php include("./navigation.php"); ?>
 
 			<div id='bodycontainer' class='row'>
-				<div class="col-lg-12">
+				<div class="col-sm-12">
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h1>Human Practice</h1>
 						</div>
 					</div>
 					<div class="row">
-						<div class='col-lg-10'>
+						<div class='col-sm-10'>
 							<p>Human practice is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea corporis nemo, iure beatae rerum dolores ducimus necessitatibus, adipisci alias ratione, molestias libero inventore error, ipsa neque et fugit. Ratione libero dolor nulla praesentium autem provident enim quis, dolores quo itaque commodi facilis deserunt quibusdam iusto excepturi accusantium ipsam animi. Perferendis.</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Research</h3>
 						</div>
 					</div>
 
 					<div class="row buttonrow">
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<a href="#">
 								<div class='igem_button blue'>
 									<img src="buttons/Senior Citizen Interviews.png">
@@ -42,7 +42,7 @@
 								</div>
 							</a>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png">
 								<div class="button_description">
@@ -51,19 +51,19 @@
 								</div>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Guest Lecturers</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Collaborations</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Ethics Panel</h2>
@@ -73,43 +73,43 @@
 
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Outreach</h3>
 						</div>
 					</div>
 
 					<div class="row buttonrow">
-						<div class='col-lg-2' style=''>
+						<div class='col-sm-2' style=''>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
@@ -118,31 +118,31 @@
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Entertainment</h3>
 						</div>
 					</div>
 
 					<div class="row buttonrow">
-						<div class='col-lg-2' style=''>
+						<div class='col-sm-2' style=''>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
@@ -151,31 +151,31 @@
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Entertainment</h3>
 						</div>
 					</div>
 
 					<div class="row buttonrow">
-						<div class='col-lg-2' style=''>
+						<div class='col-sm-2' style=''>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
@@ -184,31 +184,31 @@
 					</div>
 
 					<div class="row">
-						<div class='col-lg-12'>
+						<div class='col-sm-12'>
 							<h3>Entertainment</h3>
 						</div>
 					</div>
 
 					<div class="row buttonrow">
-						<div class='col-lg-2' style=''>
+						<div class='col-sm-2' style=''>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>
 							</div>
 						</div>
-						<div class='col-lg-2'>
+						<div class='col-sm-2'>
 							<div class='igem_button blue'>
 								<img src="buttons/Senior Citizen Interviews.png" alt="">
 								<h2>Senior Interviews</h2>

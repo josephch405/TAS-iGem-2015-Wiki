@@ -425,7 +425,7 @@ h5,
 h6,
 .h6 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 h4 small,
 .h4 small,
@@ -5783,3 +5783,29 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+.noprint, .noprint * {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.noprint h4{
+  margin-bottom:0 !important;
+}
+
+.noprint * {
+  margin:0;
+  font-family:"Arial", Gadget, sans-serif;
+  text-align:start;
+}
+
+.noprint h5{
+  font-size:12;
+  text-align:center;
+}
+.noprint h4{
+  font-size:116%;
+  font-weight:bold;
+}
