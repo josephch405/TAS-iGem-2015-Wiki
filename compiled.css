@@ -188,7 +188,7 @@ header > .container {
   border-right: 1px solid white;
 }
 #portrait_container img {
-  width: 18%;
+  width: 15%;
   padding: 5px;
   transition: 0.2s ease;
 }
@@ -560,7 +560,7 @@ nav .dropdown-menu h4 {
   padding: 5px;
   margin: 0;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 20px;
 }
 nav .dropdown-menu .subcategories_container {
   display: inline-block;
@@ -587,8 +587,10 @@ nav li.dropdown {
   display: inline-block;
   margin-right: -4px;
   height: 40px;
+  margin-bottom: 0px;
 }
 nav li.dropdown > a {
+  height:35px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -897,6 +899,7 @@ figcaption {
   color: white;
   padding: 4px 5px;
   display: inline-block;
+  font-size:14px;
 }
 figure {
   margin-bottom: 10px;

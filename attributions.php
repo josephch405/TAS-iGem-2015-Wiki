@@ -1,96 +1,164 @@
-<!DOCTYPE html>
 <html>
 
 <head>
 	<title>Attributions - TAS Taipei iGEM Wiki</title>
 	<?php include("./head.php"); ?>
-	
-	
 </head>
 
 
-<body data-spy="scroll" data-target="#category_navbar">
+<body data-spy="scroll" data-target="#category_navbar" style = "text-align:center">
 	<div class="container" style='z-index:10;position:relative;'>
 		<?php include("./navigation.php"); ?>
-
-			<div id='bodycontainer' class='row'>
-				<div class="col-sm-8 col-sm-offset-2">
-					<div class="row">
-						<div class="col-sm-12">
-							<h1>Attributions</h1>
-						</div>
+		<br>
+		<div id='bodycontainer' class='row card'>
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Attributions</h1>
 					</div>
-
-					<div class="row">
-						<div class="col-sm-12">
-<p>Project Head - Rohan Sinha</p>
-<p>Human Practice Head - Andy Wang</p>
-<p>Experimental Head - Phillip Teng</p>
-<p>Modeling Head - Edward Hsieh</p>
-<p>Wiki Head - Brian Winters</p>
-<p>Administrator - Rachel Kwak</p>
-
-<p>All lab work, with exception of mammalian transfections, was completed at the Taipei American School Sandy R. Puckett Memorial Research Laboratory.  </p>
-<p>All modeling, experimental, wiki and human practice work was completed by the students of the 2014 TAS iGEM team.  </p>
-<p>Mammalian transfections were completed at National Yang-Ming University under the supervision of graduate student Roy Wu in the lab of Dr. Wen-Long Cho, Institute of Clinical Medicine, Department of Tropical Medicine.</p>
-<p>Modeling advice and instruction was provided by Chih-Hsien Yang of National Yang-Ming University and Mr. Leo Lopez, advanced mathematics instructor at Taipei American School.</p>
-<p>Special thanks to the following people.  Without their support, none of this would have been possible.</p>
-
-<h5>Dr. Sharon Hennessy, TAS Superintendent</h5>
-<h5>Dr. Richard Hartzell, TAS Upper School Principal</h5>
-<h5>Friends of TAS</h5>
-<h5>Anonymous Donor</h5>
-<h5>Anonymous Donor</h5>
-
-
-<p>We are eternally thankful for the help, advice and guidance of Dr. Chuan-Hsiung Chang, Dr. Wan-Chun Li and the NYMU iGEM team.</p>
-<p>A huge thank you to our collaborators and sponsors.</p>
-
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/f/f3/Image00.gif" alt="">
-						</div>
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/d/db/Image01.jpg" alt="">
-						</div>
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/9/9b/Image02.png" alt="">
-						</div>
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/b/b8/Image03.png" alt="">
-						</div>
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/7/7d/Image04.png" alt="">
-						</div>
-						<div class="col-sm-2">
-							<img src="http://2014hs.igem.org/wiki/images/2/20/Image05.jpg" alt="">
-						</div>
-
-					</div>	
-
 				</div>
 
-			</div>	
+				<div class="row" style = "font-size:16px">
+					<div class="col-sm-12"><br>
+						<ul>
+							<li>
+								All lab work was completed at Taipei American School Sandy R. Puckett Memorial Research Laboratory by team members of the 2015 TAS_Taipei iGEM team unless otherwise stated.
+							</li>
+							<br>
+							<li>
+								National Yang Ming University – NYMU_Taipei team (<a href = "http://2015.igem.org/Team:TAS_Taipei/Collaborations">click to see collaboration page</a>)
+								<ul><li>
+									Specifically Dr. Chuan-Hsiung Chang, Dr. Jane Chang, and Michael Tsai for their general help on our project and presentation
+								</li></ul>
+							</li>
+							<br>
+							<li>
+								<a href = "http://www.tri-ibiotech.com.tw/">Tri-I Biotech Incorporated (Link)</a>
+								<ul>
+									<li>Sequencing of devices</li>
+									<li>Creation of primers</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								<a href = "http://www.missionbio.com.tw/">Mission Biotech (Link)</a>
+								<ul>
+									<li>P site removal for ACT gene</li>
+									<li>3 Amino Acid mutation for ACT to ACT3m conversion</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								<a href = "http://www.sinobiological.com/">Sino Biological Incorporated (Link)</a>
+								<ul>
+									<li>ACT cDNA clones</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								Dr. Phillip I. Bird – GzmB researcher at Monash University
+								<ul>
+									<li>Advice dealing with the effect  of inhibiting Granzyme B on the immune system</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								Dr. Stephanie Hsieh – Medical doctor, formerly from Kaoshiung Medical University Hospital
+								<ul>
+									<li>Causes, problems of inflammation, current treatments and advice on our prototype</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								Dr. Sarah R. Carter – Former White House policy analyst, current JCVI policy analyst
+								<ul>
+									<li>Advice on making biopharmaceuticals available to a wider range of people</li>
+								</ul>
+							</li>
+							<br>
+							<li>
+								People involved in our bioethics panel
+								<ul>
+									<li>Dr. Nathaniel Smith</li>
+									<li>Dr. Ivonne Vidal Pizarro</li>
+									<li>Dr. Annemarie Costello</li>
+									<li>Mr. Steve Anderson</li>
+									<li>Mr. Peter Kimball</li>
+									<li>Mr. Richard Brundage</li>
+								</ul>
+							</li>
+							<br>
+						</ul>
 
+						We would also like to thank the following people for advice regarding our policy brief:
+						<br>
+						<ul>
+							<li>
+								Dr. Stephen Hilgartner – Professor of Science and Technology studies at Cornell University
+							</li>
+							<li>
+								Dr. Alan Pearson – Head of NHMRC Centre of Research Excellence in Aboriginal Chronic Disease Knowledge Translation and Exchange (CREATE) of the University of Adelaide
+							</li>
+							<li>
+								Jordan Paradise J.D. – Schering-Plough Professor of Law at Seton Hall
+							</li>
+							<li>
+								Dr. Steven Benner – Distinguished Fellow at Foundation for Applied Molecular Evolution (FAME)
+							</li>
+							<li>
+								Dr. Richard Brundage – Professor of Experimental and Clinical Pharmacology at the University of Minnesota
+							</li>
+						</ul>
+						<br>
 
+						Some parts of this wiki have been derived from the 2014 TAS_Taipei wiki, which was designed entirely by the 2014 team. All other components were designed by students of the 2015 team.
+						<br>
+						<br>
 
+						<ul>
+							<li>
+								DR. SHARON HENNESSY, TAS SUPERINTENDENT
+							</li>
+							<li>
+								DR. RICHARD HARTZELL, TAS UPPER SCHOOL PRINCIPAL
+							</li>
+							<li>
+								FRIENDS OF TAS
+							</li>
+						</ul>
+						<br>
+						<p>A huge thank you to our collaborators and sponsors.</p>
+						<br>
+					</div>
+				</div>
 
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/b/b0/Attr_yangMing.gif" alt="">
+					</div>
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/c/c7/Attr_biobuilder.png" alt="">
+					</div>
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/f/f7/Attr_geneaid.png" alt="">
+					</div>
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/7/78/Attr_trii.jpg" alt="">
+					</div>
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/3/3e/Attr_mission.gif" alt="">
+					</div>
+					<div class="col-sm-4">
+						<img src="http://2015.igem.org/wiki/images/b/ba/Attr_sino.png" alt="">
+					</div>
 
+				</div>	
 
+			</div>
 
-
-		<?php include("./footer.php"); ?>
+		</div>	
 	</div>
 
-
-
-	<div class="canvas-container"></div>
-	<script>NUM_PARTICLES = 1000;</script>
-	<script src='http://2014hs.igem.org/Team:TAS_Taipei/js/field_homepage.js?action=raw&ctype=text/javascript'></script>
-	<script>sketchItem.start();</script>
+	<?php include("./footer.php"); ?>
 </body>
-
 </html>

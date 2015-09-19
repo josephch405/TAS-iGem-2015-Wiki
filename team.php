@@ -19,9 +19,12 @@
 			{"name":"Paul Chevassus","photo_url":"http://2015.igem.org/wiki/images/b/b2/PChevassus.jpg","question_1":"I got interested in the program via the iGEM club at our school. The science that was being presented captivated me and therefore I joined the program. ","question_2":"Not sure yet"},
 			{"name":"Kevin Huang","photo_url":"http://2015.igem.org/wiki/images/2/20/KHuang.jpg","question_1":"Synthetic biology is the forefront of STEM and - more importantly - the future of the medicine in the greater picture. My natural interest in biology is a key stepping stone that got me interested in iGEM, as it represents the best medium that bridges me with synthetic biology.","question_2":"Unnamed/Be Happy"},
 			{"name":"Phillip Teng","photo_url":"http://2015.igem.org/wiki/images/5/5b/PTeng.png","question_1":"It was a coincidence. I had to swim after school so I couldn't go off campus for research. As I started learning more and more about synthetic biology, I fell in love with it, and this is my second year participating in the iGEM competition!","question_2":"My dream career is to work on automating medical diagnosis and treatment. My life goal is to be a good person and hopefully influence a few people around me to live a meaningful life."},
-			{"name":"Jude Clapper","photo_url":"http://2015.igem.org/wiki/images/d/db/JClapper.png","question_1":"I'm a chemist by training, but I really got interested in synthetic biology because of the relatively straightforward approach to designing biological contructs.  I really enjoy the engineering aspect to synthetic biology and iGEM is the perfect competition in which to test yourself.","question_2":"Dream career is to be a scuba diving instructor in the South Pacific islands."},
-			{"name":"Teresa Chiang","photo_url":"http://2015.igem.org/wiki/images/4/40/TChiang.png","question_1":"My passion is in cellular and molecular biology, and I love the process of research: coming up with a fresh idea, designing (and redesigning) experiments to solve a problem, and finally getting an answer. iGEM offers students an amazing opportunity, not only to learn and grow as a researcher, but also to have fun!","question_2":"What I'm doing now-- teaching research!"},
-			{"name":"Edward \"Sabotage\" Hsieh","photo_url":"http://2015.igem.org/wiki/images/8/87/EHsieh.png","question_1":"","question_2":""}];
+			{"name":"Jude Clapper","photo_url":"http://2015.igem.org/wiki/images/3/33/JClapper.JPG","question_1":"I'm a chemist by training, but I really got interested in synthetic biology because of the relatively straightforward approach to designing biological contructs.  I really enjoy the engineering aspect to synthetic biology and iGEM is the perfect competition in which to test yourself.","question_2":"Dream career is to be a scuba diving instructor in the South Pacific islands."},
+			{"name":"Teresa Chiang","photo_url":"http://2015.igem.org/wiki/images/0/04/TChiang.jpg","question_1":"My passion is in cellular and molecular biology, and I love the process of research: coming up with a fresh idea, designing (and redesigning) experiments to solve a problem, and finally getting an answer. iGEM offers students an amazing opportunity, not only to learn and grow as a researcher, but also to have fun!","question_2":"What I'm doing now-- teaching research!"},
+			{"name":"Edward \"Sabotage\" Hsieh","photo_url":"http://2015.igem.org/wiki/images/8/87/EHsieh.png","question_1":"Taking a class in the STEM fields which did not entail just learning material.    You have to think so much more in research than in other science classes, which makes it all the more interesting.","question_2":"As of now some sort of engineer, researcher, or health professional but might change given that I'm a freshman in college.  It's all about finding your passion."},
+			{"name":"Richard Brundage","photo_url":"http://2015.igem.org/wiki/images/4/43/RBrundage.jpg","question_1":"I got interested in synthetic biology because both of my parents work in pharmaceuticals and because I really enjoyed seeing what our students were doing in the lab. I thought this was impossibly cool; how can I be a part of it?","question_2":"My life goal is to leave the world a better place than I found it."},
+			{"name":"Sean Tsao","photo_url":"http://2015.igem.org/wiki/images/7/72/STsao.jpg","question_1":"iGEM is fun and creative!","question_2":"My life goal is to travel around the world."}
+			];
 
 			$('#portrait_container img').click(function() {
 				index = $(this).data('index');
@@ -101,9 +104,11 @@
 							<img data-index='9' src="http://2015.igem.org/wiki/images/b/b2/PChevassus.jpg">
 							<img data-index='10' src="http://2015.igem.org/wiki/images/2/20/KHuang.jpg">
 							<img data-index='11' src="http://2015.igem.org/wiki/images/5/5b/PTeng.png">
-							<img data-index='12' src="http://2015.igem.org/wiki/images/d/db/JClapper.png">
-							<img data-index='13' src="http://2015.igem.org/wiki/images/4/40/TChiang.png">
+							<img data-index='12' src="http://2015.igem.org/wiki/images/3/33/JClapper.JPG">
+							<img data-index='13' src="http://2015.igem.org/wiki/images/0/04/TChiang.jpg">
 							<img data-index='14' src="http://2015.igem.org/wiki/images/8/87/EHsieh.png">
+							<img data-index='15' src="http://2015.igem.org/wiki/images/4/43/RBrundage.jpg">
+							<img data-index='16' src="http://2015.igem.org/wiki/images/7/72/STsao.jpg">
 						</div>
 						<div class="row">
 						</div>

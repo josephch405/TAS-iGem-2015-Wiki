@@ -13,13 +13,9 @@
 			<div class="col-sm-2" style='padding-left:8;'>
 				<div id="category_navbar">
 					<ul class="nav nav-list" data-spy="affix" data-offset-top="150" style='-webkit-transform: translateZ(0);width:168px;margin-left:0' >
-						<li><a href="#summary">Summary</a></li>
-						<li><a href="#background">Background</a></li>
-						<ul>
-							<li><a href="#inflammation">Inflammation</a></li>
-							<li><a href="#conditions">Conditions</a></li>
-							<li><a href="#goal">Goal</a></li>
-						</ul>
+						<li><a href="#inflammation">Inflammation</a></li>
+						<li><a href="#gzmb">Granzyme B & Chronic Inflammation</a></li>
+						<li><a href="#purpose">Purpose</a></li>
 					</ul>
 				</div>
 
@@ -27,103 +23,84 @@
 			</div>
 
 			<div class="col-sm-9">
-				<!--PROJECT, SUMMARY-->
 				<div class = "row">
 					<div class="col-sm-12">
-						<h1>Project</h1>
-					</div>
-				</div>
-				<div class = "row">
-					<div class="col-sm-12">
-						<h2 id='summary'>Summary</h2>
-						<p>
-							Elevated Granzyme B levels are associated with many conditions, including vascular, autoimmune and skin diseases. As a serine protease that induces apoptosis, Granzyme B is an essential part of the immune system. In response to inflammation or tumors, Granzyme B is often overexpressed and enters target cells to induce apoptosis. However, high levels of Granzyme B also result in the random cleavage of extracellular matrix (ECM) proteins, such as elastin and decorin. This is problematic because ECM proteins maintain tissue structure, stability and elasticity. ECM destruction can lead to advanced arthritis and prolonged wound healing -- two conditions that we are focusing on.
-							<br><br>
-							Our project goal is to limit Granzyme B activity in the ECM without affecting its intracellular functions. In humans, Antichymotrypsin (ACT) is an extracellular protease inhibitor, which does not bind to Granzyme B. Through literature research, we learned that making three point mutations on ACT allows it to bind and inhibit extracellular Granzyme B, which in turn preserves ECM proteins. This will slow the progression of arthritis and accelerate the wound healing process. Ideally, we want to deliver the inhibitor into arthritic or wound sites without bacteria (E.coli containing our circuit) entering the body. To achieve this, we designed a bandage prototype with a semi-permeable membrane that keeps bacteria from passing, but allows smaller proteins to go through. We use a temperature-sensitive promoter in our construct to control when expression of the inhibitor turns on, so the bandage can be activated easily with a heat pack.
-						</p>
+						<h1>Introduction</h1>
 					</div>
 				</div>
 				<!--BG, what is-->
 				<div class = "row">
 					<div class="col-sm-12">
-						<h2 id='background'>Background</h2>
-						<h2>What is Granzyme B?</h2>
-						<p class = "col-sm-6"><br><br><br>
-							Granzyme B is a serine protease excreted mostly from T cells and natural killer cells. Its intracellular function us to induce apoptosis in target cells such as tumor cells. Granzyme B’s intracellular functions are helpful to the human body and essential to the immune system. 
+						<h2 id = 'inflammation'>INFLAMMATION</h2>
+						<p style = "font-size:18px" class = "col-sm-12"><br><br>
+							Inflammation is the body's natural response to harmful stimuli, such as cell surface receptors, bacteria, or viruses (Nordqvist, 2015). These foreign stimuli trigger the immune response, which allow for increased blood flow to the inflamed site (MedlinePlus). The increased blood flow carries immune cells to the inflammatory site in order to kill off invaders and clean up dead cells (Wallach et al., 2013; Hochreiter-Hufford & Ravichandran, 2013). Inflammation is characterized by the Latin phrase, "calor, dolor, rubor, and tumor," which means heat, pain, redness, and swelling (Ciaccia L et al. 2011).
 						</p>
-						<figure class = "col-sm-6" style = "padding:10px">
-							<img src="http://2015.igem.org/wiki/images/8/80/Bg_fig1.PNG">
-							<figcaption class='belize'>Figure 1. Granzyme B is secreted by immune cells, enter and induces apoptosis in target cells with the help of Perforin.</figcaption>
-						</figure>
 					</div>
-				</div>
+				</div>				
 				<div class = "row">
 					<div class = "col-sm-12">
-						<figure class = "col-sm-6" style = "padding:10px">
-							<img src="http://2015.igem.org/wiki/images/d/dd/Bg_fig2.PNG">
-							<figcaption class='belize'>Figure 2. Top: Organized tissue structure. Bottom: Granzyme B degrades decorin which causes collagen to break down. The breakdown of collagen results in the loss of tissue integrity. This loss of tissue integrity prevents cancer cells from spreading.</figcaption>
-						</figure><br><br><br><br><br>
-						<p class = "col-sm-6">Granzyme B’s extracellular function is to cleave extracellular matrix (ECM) proteins so anoikis of endothelial cells can stop tumor cells from spreading. Granzyme B’s cleaving is helpful to the human body until it is overexpressed and starts to cleave random proteins in the ECM.</p>
-					</div>
-				</div>
-				<!--inflammation-->					
-				<div class = "row">
-					<div class = "col-sm-12">
-						<h2 id = 'inflammation'>Inflammation</h2>
-						<p class = "col-sm-6"><br><br><br>
-							Inflammation is the body’s response to foreign substances or an injury. During an inflammation response, damaged cells release chemicals. This result in an increased blood flow to the inflamed site. Large numbers immune cells arrive on site to clean up dead cells and kill off pathogens. During periods of inflammation, the heightened immune response also results in an overexpression of Granzyme B. Which results in random cleaving of the extracellular matrix (ECM) proteins by Granzyme B.
+						<h2 id = 'gzmb'>GRANZYME B & CHRONIC INFLAMMATION ("The Secret Killer")</h2>
+						<div class = "col-sm-6">
+						<p class = "col-sm-12" style = "font-size:18px"><br><br>
+							While inflammation is normally a beneficial and even essential part of the immune response, chronic inflammation (also known as prolonged inflammation) is associated with a multitude of different diseases, such as diabetes, heart diseases, arthritis, prolonged wound healing, autoimmune diseases, and even various cancers (Russell, 2014; Cullen et al., 2010). In fact, due to its role in various diseases, chronic inflammation become known as the Secret Killer (Gibbons, 2012; Figure 1).
 						</p>
+						<p class = "col-sm-12" style = "font-size:18px"><br>
+							Chronic inflammation begins when the normal immune response is stimulated, but the immune cells do not shut down on cue. These immune cells become hyperactive and interfere with healthy cells and tissues, which ultimately results in tissue damage.
+						</p>
+						</div>
 						<figure class = "col-sm-6" style = "padding:10px">
-							<img src="http://2015.igem.org/wiki/images/7/77/Bg_fig3.PNG">
-							<figcaption class='belize'>Figure 3. During inflammation, Granzyme B is overexpressed. Excess Granzyme B degrades collagen leading to tissue disorganization. </figcaption>
+							<img src="http://2015.igem.org/wiki/images/8/80/The-silent-killer-time-magazine.jpg">
+							<figcaption class='belize'><b>Figure 1. Inflammation is a "Secret Killer"</b> – TIME Magazine, Feb. 2004.</figcaption>
 						</figure>
-						<p class = "col-sm-12"><br><br>
-							During periods of inflammation, too much Granzyme B is made which results in the random cleaving of the ECM proteins such as decorin and fibronectin that provide tissue structural integrity. Therefore, overexpression of Granzyme B and its cleaving of the ECM proteins could be highly detrimental to the body.
-						</p>
+						
 					</div>
 				</div>
 				<div class = "row">
 					<div class="col-sm-12">
-						<h2 id = 'conditions'>Conditions of Interest</h2>
-						<p class = "col-sm-12">Overexpression of Granzyme extracellular and its random cleaving of ECM proteins is associated with at least 55 diseases/conditions. So why choose arthritis and wound healing? Since we want to regulate overexpression of Granzyme B only during periods of inflammation so the immune system’s functions would not be affected, we came up with a bandage prototype. This prototype works best with localized inflammation responses which is why we decided to focus on conditions such as various types of arthritis and wound healing. In the future, we hope to be able to purify the protein and create a cream drug delivery system which allows us to fight non-localized Granzyme B associated diseases such as psoriasis.</p>
-						<figure class = "col-sm-10" style = "padding:10px">
-							<img src="http://2015.igem.org/wiki/images/e/e5/Bg_fig4.png">
-							<figcaption class='belize'>Figure 4. Examples of diseases excessive Granzyme B levels are associated with localized conditions
+						<p class = "col-sm-12" style = "font-size:18px"><br><br><b>GzmB, a serine protease, is an essential part of the immune system that is overexpressed during inflammation,</b> (Granville et al., 2010). GzmB is normally produced by T cells and natural killer cells during inflammation, and can recognize and enter tumor cells to induce apoptosis. We refer to this important immune role as GzmB's intracellular function. Outside of cells, <b>GzmB is also capable of cleaving proteins in the extracellular matrix (ECM)</b> (Ida et al., 2005). The ECM is a collection of proteins that exists outside of cells and functions to provide both structure and support for cells and tissues. GzmB activity outside of the cells is to cleave around tumor cells, thereby jeopardizing tissue integrity and causing the death of tumor cells (Buzza et al., 2005). We refer to this as GzmB’s extracellular function. </p>
+						<p class="col-sm-6" style = "font-size:18px">
+							<b>GzmB levels are elevated during chronic inflammation, which leads to excess cleavage of important proteins in the ECM, and ultimately results in tissue damage</b> (Figure 2) and various diseases (Hiebert & Granville, 2012) (Figure 3). For example, increased GzmB cleavage of cartilage proteoglycan leads to and worsens rheumatoid arthritis; and excess cleavage of ECM fibronectin, vitronectin, or decorin prolongs wound healing and contributes to photoaging (Hiebert et al., 2013).
+						</p>
+						<figure class = "col-sm-6" style = "padding:10px">
+							<img src="http://2015.igem.org/wiki/images/d/dd/Bg_fig2.PNG">
+							<figcaption class='belize'><b>Too much GzmB cleavage of ECM proteins results is tissue damage.</b> GzmB is depicted here (and in the rest of our project) as a yellow Pac-Man. GzmB cleavage of decorin (yellow) leads to collagen (blue) disorganization. Individual cells are shown in red. 
 							</figcaption>
 						</figure>
-						<p class = "col-sm-12">Both rheumatoid and osteoarthritis are diseases that lead to complete degradation of joints. Every 1 in 10 US adults have osteoarthritis and 80% of them have trouble with movement. Every 1 in 100 US adults have rheumatoid arthritis and 60% of them are unable to work after being diagnosed with the disease. When affected by arthritis, Granzyme B levels in joints are elevated and proteoglycans, an ECM protein, are degraded which speeds up the destruction of joints.</p>
-						<p class = "col-sm-12">In the US alone, chronic wounds affect around 6.5 million patients. During inflammation, about 25 billion US dollars are spent on treating these patients every year. Granzyme B degrading ECM proteins such as fibronectin and collage, proteins that are essential in the wound healing process. Chronic wounds on mice without Granzyme heal 80% faster when compared to controls with Granzyme B.</p>
-					</div>
-				</div>
-				<!--nonlocal-->					
-				<div class = "row">
-					<div class = "col-sm-12">
-						<h3>Non-localized Conditions</h3>
-						<p class = "col-sm-7"><br><br><br><br>
-							We have theorized a non-localized topical drug delivery system for non-localized Granzyme B conditions such as psoriasis. We will purify our inhibitor and achieve transdermal delivery by either mixing the inhibitor with TD1, a peptide that allows for transdermal delivery of proteins, or encase our inhibitor in transferomes, a vesicle that brings proteins through the skin.
+						<figure class = "col-sm-10" style = "padding:10px">
+							<img src="http://2015.igem.org/wiki/images/e/e5/Bg_fig4.png">
+							<figcaption class='belize'><b>Figure 3. GzmB overexpression leads to various diseases.</b>
+							</figcaption>
+						</figure><br><br><br>
+						<h2 class = "col-sm-12" id = 'purpose'>PROJECT PURPOSE: </h2>
+						<p class = "col-sm-12" style = "font-size:20px">
+							Our project aim is to prevent tissue damage from chronic inflammation by limiting GzmB activity in the ECM without affecting its intracellular functions. 
 						</p>
-						<figure class = "col-sm-5" style = "padding:10px">
-							<img src="http://2015.igem.org/wiki/images/3/37/Bg_fig5.PNG">
-							<figcaption class='belize'>Figure 5. Exposure to UV could heighten Granzyme B (GzmB) activity which could lead to wrinkles. Our Granzyme B treatment could create wrinkle free skin as shown in the GzmB knockout mice!</figcaption>
-						</figure>
+						<img class = "col-sm-12" src = 'http://2015.igem.org/wiki/images/d/df/Bg_fig6.gif'>
+
+						<img style = "margin-top:20px" class = "col-sm-12" src = "http://2015.igem.org/wiki/images/0/0d/Bg_bonus.jpg">
 					</div>
 				</div>
-				<!--what to do-->					
-				<div class = "row">
-					<div class = "col-sm-12">
-						<h2 id = 'goal'>What do we want to do?</h2>
-						<p class = "col-sm-6"><br><br><br><br>
-							Our goal is to bring Granzyme B levels down to normal levels during periods of inflammation to slow progression of arthritis and speed up wound healing. Using a heat activated bandage containing our construct, out system will secrete, filter and send Granzyme B into the inflamed site.</p>
-							<figure class = "col-sm-6" style = "padding:10px">
-								<img src="http://2015.igem.org/wiki/images/d/df/Bg_fig6.gif">
-								<figcaption class='belize'>Figure 6. Animation showing ACT produced, secreted, filtered and then inhibiting Granzyme B.</figcaption>
-							</figure>
-						</div>
-					</div>
+				<!--nonlocal-->
 					<!--citations-->		
 					<div class="row">
 						<div class="col-sm-12">
 							<h3 id='citations'>Citations</h3>
+							<p>
+								Nordqvist, C. (2015, August 2). "Inflammation: Causes, Symptoms and Treatment." Medical News Today. Retrieved from http://www.medicalnewstoday.com/articles/248423.php. <br><br>
+								Immune response: MedlinePlus Medical Encyclopedia. (n.d.). Retrieved from https://www.nlm.nih.gov/medlineplus/ency/article/000821.htm<br><br>
+								Hiebert, PR. & Granville, DJ. (2012). Granzyme B in injury, inflammation, and repair. Trends Mol Med 18(12): 732-41.<br><br>
+								Hiebert, PR., Wu, D., Graville, DJ. (2013). Granzyme B degrades extracellular matrix and contributes to delayed wound closure in apolipoprotein E knockout mice. Cell Death Differ 20(10):1404-14.<br><br>
+								Hochreiter-Hufford, A. & Ravichandran, KS. (2013). Clearing the Dead: Apoptotic Cell Sensing, Recognition, Engulfment, and Digestion. Cold Spring Harb Perspect Biol. 5(1): a008748.<br><br>
+								Ciaccia, L. (2011). Fundamentals of Inflammation. Yale J Biol Med. 84(1): 64-65. <br><br>
+								Gibbons, A. (2012).  'Silent Killer' May Be Disease of the Affluent. Science Magaine. Retrieved from http://news.sciencemag.org/plants-animals/2012/05/silent-killer-may-be-disease-affluent 
+<br><br>
+								Gorman, C., Park, A., and Dell, K. (2004). Health: The Fires Within. TIME Magazine: Feb.23, 2004. Retrieved from http://www.inflammationresearchfoundation.org/inflammation-science/inflammation-details/time-cellular-inflammation-article/<br><br>
+								Wallach, D., Kang, T., & Kovalenko, A. (2013). Concepts of tissue injury and cell death in inflammation: A historical perspective. Nat Rev Immunol: 14(1):51-9.<br><br>
+								Cullen, S., Brunet, M., & Martin, S. Granzymes in cancer and immunity. Cell Death and Differentiation (2010) 17, 616–623.<br><br>
+								Ida, H., Utz, P., Anderson, P., & Eguchi, K. (2005). Granzyme B and natural killer (NK) cell death. Modern Rheumatology, 15(5), 315-22.<br><br>
+								Buzza, M., Zamurs, L., Sun, J., Bird, C., Smith, A., Trapani, J., Bird, P. (2005). Extracellular Matrix Remodeling by Human Granzyme B via Cleavage of Vitronectin, Fibronectin, and Laminin. Journal of Biological Chemistry J. Biol. Chem., 23549-23558.
+
+							</p>
 						</div>
 					</div>
 				</div>
@@ -133,4 +110,4 @@
 
 		<?php include("./footer.php"); ?>
 	</body>
-</html>
+	</html>
